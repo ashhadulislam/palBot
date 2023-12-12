@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+<meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"a05213e6bf",applicationID:"11827041"};;/*! For license information please see nr-loader-rum-1.248.0.min.js.LICENSE.txt */
+(()=>{var e,t,n={234:(e,t,n)=>{"use strict";n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>R,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a);const n=(0,r.ek)(e);n&&(n.info=o[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f());const n=(0,r.ek)(e);n&&(n.init=g[e])}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b);const n=(0,r.ek)(e);n&&(n.loader_config=y[e])}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k);const n=(0,r.ek)(e);n&&(n.runtime=E[e])}function R(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{"use strict";n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{Array.isArray(e[o])&&Array.isArray(t[o])?n[o]=Array.from(new Set([...e[o],...t[o]])):"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{"use strict";n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.248.0",i="PROD",a="CDN"},385:(e,t,n)=>{"use strict";n.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=(a?.document?.readyState,Boolean("hidden"===a?.document?.visibilityState)),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),d=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{"use strict";n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{"use strict";n.d(t,{L:()=>d,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};u(e),s[e].get(t)||s[e].set(t,n)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{"use strict";n.d(t,{A:()=>c,ee:()=>u});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),u=function e(t,n){var r={},s={},d={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(u.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),d=c.length,l=0;l<d;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return d[t]=d[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),d=(0,r.fP)();function l(){u.aborted=!0,u.backlog={}}d.ee||(d.ee=u)},5546:(e,t,n)=>{"use strict";n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{"use strict";n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{"use strict";n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{"use strict";n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{"use strict";n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{"use strict";n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{"use strict";function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{"use strict";function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2825:(e,t,n)=>{"use strict";n.d(t,{N:()=>d,T:()=>l});var r=n(8325),i=n(5546),a=n(3325),o=n(385);const s="newrelic";const c={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},u=new Set;function d(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,r]=e;c[t]?c[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),l[t]=Boolean(r)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{o._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,n)=>{"use strict";n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{"use strict";n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{"use strict";n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{"use strict";n.d(t,{KB:()=>o,b2:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{"use strict";n.d(t,{EZ:()=>d,ce:()=>a,ek:()=>u,fP:()=>o,gG:()=>l,h5:()=>c,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let n=o();n.initializedAgents??={},t.initializedAt={ms:(0,r.z)(),date:new Date},n.initializedAgents[e]=t}function u(e){let t=o();return t.initializedAgents?.[e]}function d(e,t){o()[e]=t}function l(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{"use strict";n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{"use strict";n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{"use strict";n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{"use strict";n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{"use strict";n.d(t,{W:()=>i});var r=n(8325);class i{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{"use strict";n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),u=n(3960),d=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2825);const v=e=>{const t=e.startsWith("http");e+="/",n.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e.agentIdentifier,w||{}),(0,i.GE)(e.agentIdentifier,_||{}),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,A);const E=(0,i.P_)(e.agentIdentifier),j=[A.beacon,A.errorBeacon];m||(E.proxy.assets&&(v(E.proxy.assets),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon),p(),(0,g.EZ)("activatedFeatures",h.T)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e.agentIdentifier,x),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.recordReplay=function(){(0,a.p)(f.xS,["API/recordReplay/called"],void 0,r.D.metrics,p),(0,a.p)("recordReplay",[],void 0,r.D.sessionReplay,p)},g.pauseReplay=function(){(0,a.p)(f.xS,["API/pauseReplay/called"],void 0,r.D.metrics,p),(0,a.p)("pauseReplay",[],void 0,r.D.sessionReplay,p)},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(f.xS,["API/createTracer/called"],void 0,r.D.metrics,p),(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},d.il?(0,u.b2)((()=>_()),!0):_(),g}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=D),m=!0}},1926:(e,t,n)=>{n.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,n)=>{"use strict";n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.248.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.248.0.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),s.integrity=i.sriHashes[o],s.crossOrigin="anonymous"),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",i.sriHashes={75:"sha512-5mWtMwj7hrXT5aUkfvBtjH6FJXsR+zdeMBfc721nzrOx36xa23yTrCB1VVOAQa+zIioAbWPW4m7UsPp7hW1WPw=="},(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,u=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);u<o.length;u++)a=o[u],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.248.0.PROD"]=self["webpackChunk:NRBA-1.248.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";i(1926);var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The page action feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The js errors feature is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}recordReplay(){(0,e.Z)("Call to agent api recordReplay failed. The agent is not currently initialized.")}pauseReplay(){(0,e.Z)("Call to agent api pauseReplay failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,d.b2)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),R=i(9251);class S extends f{static featureName=R.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,R.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,R.t,this.ee))),this.importAggregator())}}var I=i(3081);class C extends f{static featureName=I.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},(0,_.h5)(n,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){try{const t=o(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),r.forEach((r=>{if(t[r.featureName]||r.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(r.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,S,C],loaderType:"lite"})})()})();</script>
+<script>var _sf_startpt=(new Date()).getTime();</script>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?hl=en" async="async" defer="defer"></script>
+<meta name="twitter:widgets:csp" content="on" />
+<link rel="shortcut icon" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="A photo diary of a family’s quest to stay alive for 12 days in Gaza." />
+<link rel="canonical" href="https://electronicintifada.net/content/now-we-just-survive/38996" />
+<meta name="generator" content="bangpound" />
+<link rel="shortlink" href="https://electronicintifada.net/node/38996" />
+<meta property="og:site_name" content="The Electronic Intifada" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="For now, we just survive" />
+<meta property="og:url" content="https://electronicintifada.net/content/now-we-just-survive/38996" />
+<meta property="og:description" content="A photo diary of a family’s quest to stay alive for 12 days in Gaza." />
+<meta property="og:updated_time" content="2023-10-19T19:02:42+00:00" />
+<meta property="og:image" content="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-11-sunrise-from-living-quarters.jpg?itok=GthPtv7A" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="intifada" />
+<meta name="twitter:site:id" content="6721522" />
+<meta name="twitter:title" content="For now, we just survive" />
+<meta name="twitter:url" content="https://electronicintifada.net/content/now-we-just-survive/38996" />
+<meta name="twitter:description" content="A photo diary of a family’s quest to stay alive for 12 days in Gaza." />
+<meta name="twitter:image" content="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-11-sunrise-from-living-quarters.jpg?itok=GthPtv7A" />
+<meta property="article:published_time" content="2023-10-19T19:02:42+00:00" />
+<meta property="article:modified_time" content="2023-10-19T19:02:42+00:00" />
+<meta itemprop="name" content="For now, we just survive" />
+<meta itemprop="description" content="A photo diary of a family’s quest to stay alive for 12 days in Gaza." />
+<meta name="dcterms.title" content="For now, we just survive" />
+<meta name="dcterms.creator" content="Anonymous" />
+<meta name="dcterms.description" content="A photo diary of a family’s quest to stay alive for 12 days in Gaza." />
+<meta name="dcterms.date" content="2023-10-19T19:02+00:00" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="https://electronicintifada.net/content/now-we-just-survive/38996" />
+<link rel="icon" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="apple-touch-icon-precomposed" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/apple-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/apple-icon-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/apple-icon-76x76.png" sizes="76x76" />
+<link rel="apple-touch-icon-precomposed" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/apple-icon-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/apple-icon-120x120.png" sizes="120x120" />
+<link rel="apple-touch-icon-precomposed" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/apple-icon-144x144.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/apple-icon-152x152.png" sizes="152x152" />
+<link rel="apple-touch-icon-precomposed" href="https://electronicintifada.net/profiles/electronicintifada/themes/sumud/favicons/apple-icon-180x180.png" sizes="180x180" />
+<title>For now, we just survive | The Electronic Intifada</title>
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="cleartype" content="on">
+<link type="text/css" rel="stylesheet" href="https://electronicintifada.net/sites/default/files/css/css_90Nmw_FTKP0VlEQ8L0Qhsr7bO3p75vd8TqYJ8v7-gHk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://electronicintifada.net/sites/default/files/css/css_zDUPKwotpcCHG619UqR77KF6Pnx790ZSHlI4V2mCM6k.css" media="all" />
+<script>document.createElement( "picture" );</script>
+<!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-38996 node-type-story pond l__feature section-content page-panels level-1">
+<p id="skip-link">
+<a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+</p>
+<div id="page" class="page__wrapper">
+<header class="header header__region" id="header" role="banner">
+<a href="https://donatenow.networkforgood.org/1426683" class="donate-now"><img typeof="foaf:Image" src="https://account.networkforgood.org/shared/images/DN2Button-GraySmall.png" width="150" height="50" alt="Donate now"></a><a href="https://electronicintifada.us2.list-manage.com/subscribe?u=70effeb5f63e84ab0c0730984&id=e802a7602d&group[6013][16]=1&group[6013][4]=1" class="get-updates">Get Updates</a><div class="header__logo-and-name">
+<a href="/" title="Home" rel="home" class="header__logo">
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" version="1.1">
+<circle cx="50" cy="50" r="50" />
+<g transform="translate(16.656306,25.891802),scale(0.6667)">
+<path d="M75.287243 0.11648873C76.174073 0.01215584 77.086986-0.0400106 77.973815 0.09040551 78.521563 1.316317 77.373901 2.5683116 77.634733 3.794223c1.225912 1.408494 2.895238 2.3214068 4.434148 3.3908189 0.182582 0.704247 0.417331 1.5649933-0.156499 2.1388242-0.495582 0.6259973 0.286915 1.2259119 0.443414 1.7997419-0.599914 0.547748-1.38241 0.860747-1.930158 1.434578-0.312999 0.860746 0.678164 2.138824-0.312999 2.764821-0.965079 0.495581-2.19099 1.773659-3.208236 0.652081-0.417332 0.208665-0.782497 0.547747-1.225911 0.704247-2.34749-0.234749-4.538481-1.356328-6.938138-1.382411-0.912912-0.312999-1.799742-0.73033-2.608322-1.251995 0.391249-0.65208-0.312998-0.495581-0.756413-0.547747-0.234749-1.460661-1.877992-1.851909-2.686572-2.869155-0.156499-1.0954951 1.069412-1.8519086 0.88683-2.9474039-0.182583-1.2519947-0.02608-2.6604887 0.756413-3.6777343 1.017246-0.704247 2.373573-0.4173316 3.547318-0.5999141 1.069412-0.052167 1.799742-1.0433289 2.895238-0.9911624 1.825825-0.052166 2.895237-1.79974234 4.512397-2.29532357zM27.815779 16.809751c3.521235 0 6.96422 0.938996 10.485455 1.043329 0.599915 0.678163 1.434578 0.991162 2.217074 1.408494 1.434577 1.199828 2.008408 3.416902 4.095066 3.755984 0.182583 2.164907 1.69541 4.38198 3.729901 5.138393 0.443415 0.417332 0.756413 0.96508 1.199828 1.382411 0.547748 0.339082 1.486744 0.208666 1.669326 0.991163 0.1565 0.886829-0.860746 1.434577-0.886829 2.295323 0.02608 2.060575 0.912913 3.990733 1.043329 6.025224 0.156499 0.652081-0.756414 0.782497-0.88683 1.356328-0.130416 0.573831 0.07825 1.121578 0.07825 1.695409-1.591077 1.53891-4.121149 2.477906-4.381982 4.955812-1.799742 1.460661-3.938566-0.965079-5.868725-0.07825-1.017245 0.365165-1.564993 1.61716-2.660488 1.747576-0.521665-0.88683-0.625997-2.399657-1.851909-2.608322-1.043329 0.339081-2.190991 0.912912-3.208236 0.130416-1.53891 0.417331-3.051737-0.208666-4.590647-0.339082-1.591077 0.65208-3.312569 0.417331-4.981895 0.704247-1.486744-0.130416-2.660489 1.799742-4.095066 0.704247-2.112741-1.564994-5.112312-2.164908-7.459802-0.80858-0.834663 0.965079-0.834663 2.451823-1.9040747 3.338652-1.1476618 2.008408 1.1215787 3.312569 2.3996567 4.434148 0.834663 3.312569 4.747146 3.755984 6.859887 5.920891 0.88683 1.173745 2.26924-0.782496 3.182153 0.208666 0.88683 1.069412 1.069412 2.634406 2.217074 3.521235 0.599914 0.495581 1.643243 0.495581 2.034491-0.208666 0.80858-1.356327 2.608322-0.443414 3.703817-1.304161 2.164908-1.434577 4.121149-3.182153 5.999141-4.955812 0.96508-0.782497-0.208665-1.799742-0.365165-2.686572 1.69541-0.678164 3.599485-0.912913 5.190561-1.877992 0.991163-0.599914 1.069413-1.799742 1.356328-2.764821 1.825826-1.199829 4.251565-1.356328 6.15564-0.339082 1.434578 1.851909 1.799743 4.277648 3.051737 6.259973-0.547747 1.173745-1.46066 2.164908-1.877992 3.416902-0.312998 0.938996 0.234749 1.825826 0.365166 2.738738-1.017246 1.408494-2.947405 1.225912-4.408065 1.825826-1.147662 0.443415-1.330244 1.773659-2.060575 2.634405 0.912913 0.834664 2.190991 0.80858 3.286486 1.121579 0.938996 0.443415-0.234749 1.669326-0.938996 1.278078-1.38241-0.443415-2.634405-1.564993-4.199398-1.043329-2.373573 0.573831-5.42531 1.095495-6.599055 3.547318-1.564994 0.678164-3.260403-1.173745-4.721064-0.05217-0.756413 0.469498-1.956241 1.773659-2.660488 0.573831C26.668117 70.671603 24.946625 71.271517 23.77288 70.697686 22.494802 70.123856 21.190641 69.445692 19.756064 69.732607 17.61724 69.02836 14.148171 69.628274 13.678673 66.68087 11.957181 64.933294 8.8011108 65.402792 7.1839511 63.60305 7.3926169 60.681729 4.2104638 58.542905 5.2277094 55.569418 4.471296 53.508843 2.0716396 52.830679 0.1153979 52.387265-0.38018331 51.239603 1.0543939 51.396102 1.6282248 50.848354 2.9845523 49.987608 2.4889711 48.083533 2.4107214 46.727205 1.6021416 45.996875 0.40231335 45.318711 0.50664624 44.066717 0.58489591 41.980059 2.593304 40.701981 3.062802 38.745739 3.5844664 37.024247 0.74139524 36.763415 0.97614424 35.041922 1.8108073 33.737761 4.1582973 34.076843 4.3930463 32.2771 5.3059591 29.694861 6.1927886 27.00829 7.8621148 24.765134 7.4187001 23.20014 5.8276235 24.347802 4.7842947 24.426052 3.9235483 24.556468 3.2714678 22.861058 4.3147967 22.782809c2.243157-0.339082 4.7210631 0.80858 6.8077213-0.495582 0.886829-0.417331 0.130416-1.486743 0.391248-2.19099 1.61716-0.80858 3.469068 0.469498 5.112311-0.1565 0.782497-0.286915 0.912913-1.147661 1.069413-1.851908 2.138824-0.573831 4.381981-0.02608 6.520805-0.469498 1.225911-0.260833 2.373573-0.678164 3.599484-0.80858m-7.851049 9.024795c-1.408494 1.199827-1.591077 3.182152-2.321407 4.747145-1.591076 0.80858-2.634405-1.53891-4.277648-1.304161-1.225912-0.156499-1.61716 1.147662-2.034492 2.034491-0.73033 1.564994-2.4257393 2.26924-3.5473178 3.469069-0.1304161 1.199828-0.1564994 2.582239 0.5738309 3.573401 2.7126549 1.121579 5.8426419 0.443415 8.3987979-0.834663 1.225911 0.02608 2.425739-0.182583 3.651651-0.182583 1.278078 0 1.069412 1.956242 2.34749 2.034492 1.591076 0.02608 2.790904-1.53891 4.434147-1.356328 0.756413 0.05217 1.61716 1.017246 2.19099 0.1565 1.043329-1.278078 2.686572-2.190991 4.355899-1.538911 1.356327-0.469498 1.773659-2.243157 1.904075-3.547318-0.547748-0.782496-1.356328-1.434577-1.225912-2.530072-1.278078-0.912913-2.738738-1.591077-4.251565-2.034492-0.547748-0.678163-1.147662-1.512826-2.138824-1.53891-0.625997 0.208666-1.173745 0.652081-1.877992 0.652081-2.243157 0.104333-3.938566-2.373572-6.181723-1.799741zM57.524569 18.870325c2.373573-0.286915 4.303732 1.434578 6.677305 0.96508 1.904075 1.486743 4.61673 1.225911 6.807721 0.57383 0.938996 0.182583 1.877992 0.573831 2.869154 0.443415 1.147662-0.156499 2.008408 0.860747 3.129987 0.782497 1.61716 0.156499 3.338652-0.339082 4.851479 0.365165-1.382411 2.34749-0.104333 4.981894 1.356328 6.938136-0.573831 1.173745-1.382411 2.295324-1.564994 3.625568 1.982325 2.112741 0.02608 5.268811 1.643243 7.564134 0.599914 0.678164 1.53891-0.02608 2.243157-0.182582 0.678164 1.199828-0.625997 1.617159-1.46066 2.060574-1.095495 1.278078-0.286915 3.07782-0.678164 4.564564-0.73033 1.825826 1.486744 3.23432 1.095496 5.060145-0.1565 0.573831 0.07825 1.095495 0.286915 1.591077 0.07825 0.991162-1.825826 0.860746-1.434577 1.982325 0.443415 0.599914 0.965079 1.147661 1.356327 1.799742 1.408494 1.956242 4.825396-0.104333 5.790476 2.321407 1.095495 0.65208 2.451822-0.130417 3.469068-0.730331 0.573831 0.573831 0.547748 2.034492 1.591077 1.747576 1.38241-0.260832 1.956241 1.278078 2.660488 2.164908 0.417332 0.782496 1.721493 0.860746 1.747576 1.904075 0.469499 1.930158-2.477906 2.99957-1.512827 4.929729 0.495582 0.625997-0.521664 1.121578-0.991162 0.704247-1.512827-1.199828-2.947404 0.860746-4.277649 1.356327-3.755983-0.312998-7.720633 0.678164-11.241868-0.938996-4.564564 0.625998-8.998712-1.147661-13.537192-1.199828-1.669327 0.208666-3.208237 1.382411-4.955813 0.912913-3.129986-0.678164-6.129557-1.982325-8.790045-3.729901-0.938996-0.678164-2.243157-1.799742-1.69541-3.07782 0.88683-1.173745 2.582239-0.73033 3.782067-1.225911 0.88683-0.208666 1.251995-1.304162 2.217074-1.251995 1.643243-0.05217 2.243157-2.764822 4.016816-1.982325 0.938996 0.625997 2.034492 0.339082 2.999571-0.05217 0.208666-0.938996-0.104333-1.956242 0.260832-2.869155 1.199828-0.886829 2.790905 0.782497 3.990733-0.182582 0.312999-0.599914 0.495581-1.278078 0.678164-1.930159 0.182582-0.678164-0.834663-1.199828-0.599914-1.877992 1.069412-0.443415 2.451823-0.782496 2.947404-1.982325-0.156499-1.930158-1.851909-3.15607-3.364736-4.042899-0.260832-0.704247 0.547748-1.61716-0.05217-2.321407-0.80858-0.912913-2.190991-0.704247-3.23432-1.173745 0.912913-1.643243 3.23432-1.095495 4.434148-2.321407 0.391248-0.782496-0.547748-1.53891-0.417332-2.373573 0.260833-1.643243-2.816988-0.991162-2.217073-2.764821 1.251994 0.234749 2.582239-0.625998 2.816988-1.851909-1.330245-1.408494-0.860747-4.329815-3.077821-4.799313-1.147661-0.104333-1.043329-1.53891-1.591076-2.26924-1.721493-0.991162-3.834234 1.46066-5.320977-0.156499-1.77366-1.564993-3.677735-2.947404-5.477477-4.408064-1.173745-1.304161 0.260832-2.895238 1.773659-2.660489z" />
+</g>
+</svg>
+</a>
+<h1 class="header__site-name">
+<a href="/" title="Home" class="header__site-link" rel="home"><span>The Electronic Intifada</span></a>
+</h1>
+</div>
+</header>
+<div id="main" class="main__region">
+<div id="content" class="column content__region" role="main">
+<nav class="breadcrumb" role="navigation" prefix="v: http://rdf.data-vocabulary.org/#"><h2 class="element-invisible">You are here</h2><span typeof="v:Breadcrumb"><a href="/" rel="v:url" property="v:title" content="Home"></a></span></nav> <a id="main-content"></a>
+<h1 class="page__title title balance-text" id="page-title">For now, we just survive</h1>
+<div class="pond-header"><article class="node-38996 node node-story view-mode-full node-is-page image-landscape" about="/content/now-we-just-survive/38996" typeof="sioc:Item foaf:Document">
+<header class="node__header">
+<span property="dc:title" content="For now, we just survive" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<p class="node__submitted">
+<span class="field field-author"><a href="/people/mahmoud-nasser" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype>Mahmoud Nasser</a></span>
+<span class="field field-publisher"><a href="/people/electronic-intifada" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype>The Electronic Intifada</a></span>
+<span class="field field-publication-date"><span property="dc:date" datatype="xsd:dateTime" content="2023-10-19T20:00:00+00:00" class="date-display-single">19 October 2023</span></span> </p>
+</header>
+<figure id="file-141081--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-11-sunrise-from-living-quarters.jpg?itok=E7bU6j1r&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-11-sunrise-from-living-quarters.jpg?itok=Tmagc1uu&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-11-sunrise-from-living-quarters.jpg?itok=mTLUP3zy&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-11-sunrise-from-living-quarters.jpg?itok=GthPtv7A&amp;timestamp=1697739499" width="800" height="533" alt="The sun rises over Gaza" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>The sun rises over Gaza, giving respite from the wretched nights.</p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 1, Saturday 7 October</h2>
+<p>Six-thirty AM and sounds begin to creep in, sounds I had been dreading. I wake my wife, telling her that something feels wrong.</p>
+<p>An uneasiness begins to creep in, filling every part of my body. Worry, fear and anxiety immediately become feelings that I am going to have to get accustomed to.</p>
+<p>What should have been a normal day changes in <a href="https://electronicintifada.net/content/hamas-fighters-gaza-storm-israel-capture-and-kill-soldiers/38631">an instant</a>. Phones begin to ring looking for my brother and father. We need to stick together.</p>
+<p>Somehow, despite it all, we manage to keep a positive attitude.</p>
+<p>Not enough beds in my apartment in Beit Hanoun, not enough food, and no electricity. Four hours a day is all we get.</p>
+<p>The shadow of death slowly begins to lurk around everyone here. No one should ever experience the fear that comes with the possibility of losing their life in an instant and at any moment.</p>
+<p>My wife is pregnant. She cries at the sound of every explosion.</p>
+<p>Hoping for the best, but expecting the worst.</p>
+<figure id="file-141086--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-4-grabbing-supplies.jpg?itok=Lneg3Pfz&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-4-grabbing-supplies.jpg?itok=69nflKzn&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-4-grabbing-supplies.jpg?itok=W6AmJyyq&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-4-grabbing-supplies.jpg?itok=80e4HiOq&amp;timestamp=1697739499" width="800" height="533" alt="People in silhouette carrying bags from a damaged building." title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>As the situation gets worse, people hunt for supplies wherever they can find them.</p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 2, Sunday 8 October</h2>
+<p>We had five hours of broken sleep.</p>
+<p>We were interrupted constantly by the <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/israel-massacres-palestinian-families-gaza-reprisal-strikes">sounds of bombing</a> throughout the night, filling every inch of your body with a chilling anxiety. Back to sleep we go, thankful to be still alive.</p>
+<p>My brother tries to comfort my wife. As long as you still hear the bombing, he tells her, it means you are ok, you are still alive.</p>
+<p>How many more days of this? It feels like we’re going to be trapped in our homes for a while.</p>
+<p>Our relatives in Beit Hanoun receive a mass message ordering all residents to evacuate. They pack as many of their possessions as they can in whatever bags they have.</p>
+<p>On foot, they leave in their thousands, looking for safety. History has taught us that nowhere is safe.</p>
+<p>In a few hours the sun will set, and fear of the night begins to creep in again. I feel vulnerable and hopeless.</p>
+<p>At 8:00 PM, darkness has fallen. There is not a single sound in the streets other than the neighbor’s generator and the buzzing of Israel’s military drones above.</p>
+<p>It is eerie and abnormal. There is something about night that slows down time. This night in particular.</p>
+<p>There is no comforting sound of a passing car or the random chit-chat of neighbors. Just silence.</p>
+<figure id="file-141111--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-5-talking-politics.jpg?itok=hQZn_7Jd&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-5-talking-politics.jpg?itok=ZmGJwLaT&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-5-talking-politics.jpg?itok=_CJq-w-x&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-5-talking-politics.jpg?itok=5cKS-trE&amp;timestamp=1697739499" width="800" height="600" alt="Two men, in a manicured backyard, talking" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>Talking, waiting, fearing. </p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 3, Monday 9 October</h2>
+<p>We slept just four hours. We are still breathing.</p>
+<p>Days like this remind us both of the fragility of life and the gift of life. Nothing seems to matter anymore, we only want to live.</p>
+<p>As the morning hours pass, we hear news of another <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/israel-cuts-food-water-millions-palestinians-it-calls-human-animals">bloody massacre</a> in a busy shopping district in Jabalia.</p>
+<p>Nowhere is safe anymore. Beit Hanoun has evacuated, al-Rimal is ordered to evacuate. The bombing is coming closer and closer.</p>
+<p>Are we next to evacuate? Our minds are racing, where would we go? What would we do? Will we survive? What about our homes?</p>
+<p>And the car? The dog? The chickens?</p>
+<p>What is happening?</p>
+<p>Only three days.</p>
+<p>The TV blares out news non-stop.</p>
+<p>A night like no other. One blast after another lights the sky orange. The most prestigious and upscale neighborhoods in Gaza have been completely obliterated.</p>
+<p>No one can believe this. I lie on the bed anxious just to see the next day. I feel a true sense of devastation.</p>
+<p>As the clock ticks toward midnight, a few raindrops fall, to give us a brief respite from the trauma of this human catastrophe.</p>
+<p>Rain is a blessing. On cloudy winter days, when the skies open, we always stick our heads out of the window to embrace the joy of water landing on parched ground.</p>
+<p>But not tonight.</p>
+<p>Have some hope</p>
+<p>.</p>
+<figure id="file-141091--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-4-garbage-pile-up.jpg?itok=vNUPcR99&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-4-garbage-pile-up.jpg?itok=GGX0XW2N&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-4-garbage-pile-up.jpg?itok=WKIlPXcU&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-4-garbage-pile-up.jpg?itok=dpYsGf2c&amp;timestamp=1697739499" width="800" height="533" alt="A heap of garbage lies in an empty street" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>As Israel’s indiscriminate bombing continues, all municipal services are canceled and no one picks up the garbage. </p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 4, Tuesday 10 October</h2>
+<p>We barely got any sleep.</p>
+<p>We made breakfast. preparing for yet another day hostage in our own homes.</p>
+<p><a href="https://electronicintifada.net/blogs/maureen-clare-murphy/biden-cheerleads-israels-genocidal-war-gaza">Just another day</a>.</p>
+<p>My wife takes a call from her mother in the other room while the rest of us sit down to watch the news.</p>
+<p>There it is! The moment I have been dreading most. We have been ordered to evacuate the building.</p>
+<p>The morning’s brief calm turns to panic. My father screams at us to evacuate. “Everyone is running in the streets,” he says.</p>
+<p>My senses heightened, I grab my laptop, run to my apartment, adjacent to my brother’s in the same building, and grab the bag we had packed on day one in preparation for this moment.</p>
+<p>Passports, my wife’s gold, some cash, and a few items of clothing. We take only the necessities. We are ready in an instant.</p>
+<p>As we make our way to the stairway, everyone is running, screaming, frantic, lost, in a daze.</p>
+<p>Run for your life.</p>
+<p>As we exit the building, there’s an explosion just 50 meters away on al-Mina harbor.</p>
+<p>We get in the car. My father takes the wheel and speeds right out of the building, heading to our family’s restaurant, where relatives, who evacuated their homes in Beit Hanoun, has sought refuge.</p>
+<p>Distraught faces, worried looks, and unfathomable fear.</p>
+<p>I am experiencing my first major war. For my relatives, it is their fourth.</p>
+<p>All the trauma of the past can be seen in even their most inconspicuous of expressions.</p>
+<p>An hour later, a friend of my father arranged for us to shelter at the UN Development Programme offices in Gaza, where my father had previously worked.</p>
+<p>We need hope.</p>
+<figure id="file-141096--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-5-arrival-of-food-aid.jpg?itok=3q-Em-_h&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-5-arrival-of-food-aid.jpg?itok=rjUUf_zy&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-5-arrival-of-food-aid.jpg?itok=iUp0YyUg&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-5-arrival-of-food-aid.jpg?itok=2EoORfbg&amp;timestamp=1697739499" width="800" height="600" alt="A pallet loaded with food parcels arrives at a UN building" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>Food aid arrives at a UN office as Israel cuts off water, food, electricity and fuel supplies.</p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 5, Wednesday 11 October</h2>
+<p>Israel has the right to defend itself, they keep telling us, those wise heads in warm studios around the world.</p>
+<p>Is <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/famine-looms-gaza-amid-israeli-carpet-bombing">this</a> what self-defense looks like? Flattening entire buildings on the heads of entire families?</p>
+<p>Massacre after massacre after massacre.</p>
+<p>When will this stop? How much can we endure?</p>
+<p>The electricity has officially been cut off. All Gaza’s entry and exit points are closed. Nothing comes in. Nothing goes out.</p>
+<p>Water is running scarce, groceries are running scarce, prices are going up. Catastrophic.</p>
+<p>Our mental states remain relatively okay. But like every day, we swing from worried, to scared, to present and smiling, to fearful for our lives.</p>
+<p>When war starts, everyone prepares for the moment they fear as much as the order to evacuate.</p>
+<p>Mine comes today. A message pops up: “Coach,” it says. “Salma al-Atrash is a martyr.”</p>
+<p>A cold, empty feeling consumes my entire being.</p>
+<p>Salma was a gem of a little human being, a beautiful 12-year-old soul who radiated nothing but positivity and hope. She brought endless excitement to tennis practice.</p>
+<p>The last time I saw Salma, she was crying because she had lost a game. Then she wiped away her tears and readied herself for the next challenge.</p>
+<p>Her chance at life &#8211; her chance of life &#8211; has been snatched away. Her dreams have been erased.</p>
+<p>I am not sure if I can ever go back to coaching tennis again.</p>
+<p>Salma, I hope you rest in peace.</p>
+<p>Death is all around us, hovering around like killer bees waiting to give that killer blow. Many experience death in ways 100 times more traumatic and daunting than what I went through with the loss of Salma. I can only imagine what it’d be like.</p>
+<p>We are being massacred, slandered and dehumanized, just <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/israel-cuts-food-water-millions-palestinians-it-calls-human-animals">“human animals”</a> that deserve to die.</p>
+<p>Our crime: We want nothing but to live free from the ugliness of war and its brutal consequences. We want to live free from occupation, free from oppression, free from the idea that this will one day happen again.</p>
+<p>It’s only day five. How much more? How much longer?</p>
+<p>Someone please feel something! No one seems to care for the lives of 2.3 million people caged in Gaza.</p>
+<figure id="file-141101--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-6-obliterated-building.jpg?itok=KFp4Po6B&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-6-obliterated-building.jpg?itok=iDGYTmdk&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-6-obliterated-building.jpg?itok=9tNoNzIZ&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-6-obliterated-building.jpg?itok=yY582gCF&amp;timestamp=1697739499" width="800" height="600" alt="Men walk past a building completely destroyed in an airstrike" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>The destruction is total.</p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 6, Thursday 12 October</h2>
+<p>I can’t stop watching the news. Looking for a glimmer of hope, waiting to hear the word “ceasefire.”</p>
+<p>This is a day of massacres. Family after family disappears under the wreckage of their homes. Israel’s bombing campaign is indiscriminate.</p>
+<p>The burnt flesh of innocent lives is extracted from beneath the rubble. <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/israeli-attacks-wipe-out-44-gaza-families">Entire families</a> are wiped out.</p>
+<p>Some families have a single survivor. A father loses all his children, kids lose their parents. Loss and grief all over the place.</p>
+<p>That empty feeling of loss touches me again today. A journalist, Ali Jadallah, whom I have met and chatted with several times, loses five members of his family.</p>
+<p>I speak with my father about this thing that comes with living in Gaza, about being from and not living here for a while.</p>
+<p>The 2021 Israeli assault on Gaza left more than 250 dead, a catastrophic loss of life.</p>
+<p>But then, I had been living abroad for more than a decade. The circle of people I was familiar with was small.</p>
+<p>Now, having lived here for two years &#8211; I’ve got to know many people &#8211; the circle expanded.</p>
+<p>I&#8217;m more vulnerable. That’s the cost of living in Gaza.</p>
+<p>The night has come and things aren’t looking better. The Israeli military is threatening to erase yet more buildings. We hear they are targeting something less than a kilometer south from the UNDP HQ. We prepare for the bombing.</p>
+<p>Stay strong. Be patient. Be hopeful.</p>
+<p>One can’t help but wonder, when this is all over, how will life continue? How?</p>
+<p>Life was bad enough before the war. There were no economic possibilities, no jobs, rampant poverty. Imagine the situation after this war.</p>
+<figure id="file-141106--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-7-waiting-evacuation.jpg?itok=gWkUd30e&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-7-waiting-evacuation.jpg?itok=5f5lVOC1&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-7-waiting-evacuation.jpg?itok=F5UEXMyN&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-7-waiting-evacuation.jpg?itok=U_i08H7o&amp;timestamp=1697739499" width="800" height="600" alt="A child and two women with bags sit in the back of a car." title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>We have to evacuate again, heading south, with what little we brought with us.</p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 7, Friday 13 October</h2>
+<p>Today, I truly feel terrorized. I feel erased, empty, scared shitless, on the brink of emotional collapse. I am woken at 1:00 AM by my father, in a tone of voice that tells me everything I need to know. Something is very wrong.</p>
+<p>The news: We need to <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/protect-us-israeli-genocide-say-palestinians">evacuate</a>. Everyone in Gaza has to go.</p>
+<p>My mind is racing in a million directions. Everything feels unreal.</p>
+<p>A nightmare, I usually wake up from. There is no waking up from this. I slap my own face. Wake up, please wake up. To no avail. It’s all real.</p>
+<p>I wake up my wife, then my brother. Get ready. We’re going.</p>
+<p>In the hall of the UNDP’s headquarters lie the entire UN staff and many foreigners, all frantically trying to understand what’s going on. Do we leave? Do we stay?</p>
+<p>Many say, with sincere conviction, they will stay put and die valiantly, rather than be scattered around looking for safety yet again.</p>
+<p>A hoax others say.</p>
+<p>The idea of staying gives me relief, but the possibility that the news is even a fraction real fills me with renewed fear.</p>
+<p>I can’t collapse. I have to be strong.</p>
+<p>A few hours pass and the news keeps getting more real. Al Jazeera finally confirms the evacuation order. It’s time. We pick ourselves up, and screw up our courage to keep us going during this hell.</p>
+<p>6:00 AM. We’re on our way. Where? Not a clue.</p>
+<p>Thirty minutes later we arrive at a massive training facility run by the UN agency for Palestine refugees (UNRWA) in Khan Younis. Not a chance we can stay here, my father says.</p>
+<p>Minutes later and we’re separated. My brothers and my father head one way, my wife and I another.</p>
+<p>We find a small apartment that sways whenever a bomb goes off. Keep moving. Nowhere is safe!</p>
+<p>By the end of the night, we are reunited with my father and youngest brother. A huge relief not having to worry about their safety. We live together. We die together.</p>
+<p>We’re breathing. We’re alive.</p>
+<figure id="file-141116--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-7-brother-sleeps-post-evacuation.jpg?itok=AZ7jBYZK&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-7-brother-sleeps-post-evacuation.jpg?itok=d818n7k6&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-7-brother-sleeps-post-evacuation.jpg?itok=I3rdvXOS&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-7-brother-sleeps-post-evacuation.jpg?itok=rPuAVusk&amp;timestamp=1697739499" width="800" height="600" alt="A man sleeps on a mattress on the floor" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>My brother rests after yet another evacuation.</p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 8, Saturday 14 October</h2>
+<p>The thing about these kinds of experiences is that tomorrow is always unpredictable. We are robbed of the ability to be patient and wait in place. We are robbed of any feeling of safety.</p>
+<p>As I take my first breath <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/humanity-failing-palestinians-gaza">this morning</a>, I am thankful to be alive. Then my mind drifts to what will happen today.</p>
+<p>The Canadian embassy calls my youngest brother telling him that we can head to the Rafah border crossing.</p>
+<p>But only my wife and I have our passports. My father and my brothers had left everything back in Beit Hanoun. No one imagined that it would come to this.</p>
+<p>My youngest brother understands that he has to take a leap of faith and risk his life. He has to get the passports. He has to get his fiancée who’s stuck in the Jabaliya refugee camp, which refused to evacuate.</p>
+<p>Pacing and heart racing, I can’t sit or eat. I am worried to death about my brother and father. Please make it back alive. Entering Beit Hanoun at this time is fatal.</p>
+<p>A few hours pass, and they’re back in one piece. With them are my brother&#8217;s fiancée, my other brother and his wife, and my nephew with the wife of my brother who’s in Canada.</p>
+<p>We’re ready to make a run for it.</p>
+<p>As the nerves settle, I see my father like I’ve never seen him before, in a state of pure horror.</p>
+<p>“I never felt like this before,” he said. We entered a literal ghost town.</p>
+<p>Not a single human was there. We jumped over the wall of the house since we couldn’t open the door, and entered through a window broken in the bombardment.</p>
+<p>He tells me of their panic. We ran frantically looking for our things. Every minute that passed felt like an hour. We couldn’t get the thought of death out of our head.</p>
+<p>As we left the house, we took two white shirts to wave out of the car window. Please don’t kill us.</p>
+<p>On the way out, bombs went out all around them.</p>
+<p>I want my music books, my Chopin nocturnes and waltzes, my Bach. My piano.</p>
+<p>As the thought of leaving begins to creep in, thousands of emotions flood over me. The things you leave behind. The people you’ll worry to death about. The new apartment I never got to live out my dreams in with my wife.</p>
+<p>My hopes.</p>
+<p>We all have our documents now. We’re still breathing, so that’s a good thing.</p>
+<p>A ground invasion has been announced for tomorrow. Will we leave? Will we live? I go to bed in the hope that I will wake up tomorrow, that I will still be breathing.</p>
+<figure id="file-141141--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-8-horse-cart-supplies-water.jpg?itok=4T3O3_kN&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-8-horse-cart-supplies-water.jpg?itok=XdsTqT4Q&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-8-horse-cart-supplies-water.jpg?itok=yY49ENSy&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-8-horse-cart-supplies-water.jpg?itok=nY6fdL-K&amp;timestamp=1697739499" width="800" height="600" alt="People gather around a horse-drawn car delivering water" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>Water is scarce. There are hour-long queues for bread. There is no fuel or electricity.</p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 9, Sunday 15 October</h2>
+<p>Just before we slept last night, my brother&#8217;s wife broke down in tears over the loss of her sister&#8217;s daughter.</p>
+<p>Death is getting closer and closer. Every new day only brings new fears.</p>
+<p>As the sun rises, the wretched fear of the night lifts. I am thankful to be alive.</p>
+<p>We are in Khan Younis in the south. But we will likely be stuck here. The Rafah <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/hunger-thirst-may-kill-gazans-spared-israeli-bombs">border is closed</a>. Thousands camp out waiting for an opportunity to escape.</p>
+<p>The living situation is becoming more and more dire with every passing day. There are hours-long queues for bread. A true humanitarian nightmare is unfolding right in front of our eyes. To us. Never in my life did I imagine that we’d be rationing water and bread.</p>
+<p>It is sad it has come to this. But for the rest of the world, this is “self-defense.”</p>
+<figure id="file-141156--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-11-bomb-smoke-window-view.jpg?itok=ALo5teZ2&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-11-bomb-smoke-window-view.jpg?itok=qkFAWoWS&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-11-bomb-smoke-window-view.jpg?itok=RXOx31uY&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-11-bomb-smoke-window-view.jpg?itok=OCFpGpxY&amp;timestamp=1697739499" width="800" height="533" alt="From a window, smoke can be seen rising in the distance" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>A view from a window. There is the sound of regular explosions, and the constant whirring of drones in the sky.</p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 10, Monday 16 October</h2>
+<p>I wake up at the crack of dawn as our hosts prepare for Fajr (early morning) prayer only to overhear talk of a new massacre, and the <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/one-child-killed-every-15-minutes-gaza">obliteration</a> of multiple neighborhoods in Gaza City.</p>
+<p>As I try to drift back to sleep I hear the commanding voice of Abu Yaser, the elder of the house and our host: “You know, the best thing that could happen to anyone right now, is death.”</p>
+<p>It has gotten to this, I think, where the living begin to wish they are dead in a desperate attempt to escape the emotional distress and psychological terrorism inflicted on us by the Israeli occupation.</p>
+<p>We are desperate for any news about the border opening or signs of a humanitarian ceasefire. But it only leaves us more anxious and worried. Humanitarian aid awaits at the Egyptian border for Israeli permission to enter, but no permission comes.</p>
+<p>This denial punishes us all. It starves the civilian population, makes the transportation systems grind to a halt, and robs the injured of any chance at life.</p>
+<p>Our hope is dwindling as night approaches. We feel desperate.</p>
+<p>No showers. Little water. Little bread.</p>
+<p>No aid. No one hears us. No one sees us. Just another statistic.</p>
+<p>Chopin nocturnes play in my ear. They give me a little solace, enough to keep me going.</p>
+<figure id="file-141161--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-10-girl-portrait.jpg?itok=Cfe2GN26&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-10-girl-portrait.jpg?itok=6fOrbhLp&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-10-girl-portrait.jpg?itok=Ijlte06C&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-10-girl-portrait.jpg?itok=umrFsNi-&amp;timestamp=1697739499" width="800" height="533" alt="A girl stands on a balcony looking back" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>Sheltering at an UNRWA school in Khan Younis. </p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 11, Tuesday 17 October</h2>
+<p>Another <a href="https://electronicintifada.net/blogs/maureen-clare-murphy/hunger-thirst-may-kill-gazans-spared-israeli-bombs">massacre</a>.</p>
+<p>An explosion startles us in our place of refuge in Khan Younis. My wife is tired. I am tired. Everyone around me is tired.</p>
+<p>I reach for Chopin in my mind to help me push through the day.</p>
+<p>There is a thing about the Israeli army, which often gets buried under the heavy weight of death. It’s the terror it inflicts on the population, not with the bombs dropped on us from far above, but from the noise and constant buzzing of fighter planes and killer drones. This engenders a constant feeling of insecurity.</p>
+<p>It makes everyone feel targeted.</p>
+<p>Anytime I see a civilian house obliterated, I think, that could be me. Today it could be me, or my relatives, or my friends. I am in a frenzied state of constant anxiety and worry.</p>
+<p>At any moment, we could be that next massacre on TV, for the rest of the world to see.</p>
+<p>For the world to invoke “self-defense.”</p>
+<p>I don’t know how much longer this will last.</p>
+<figure id="file-141166--7" class="media media-element-container media-figure_wide file file-image file-image-jpeg">
+<picture class="media-element file-figure-wide">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_1800w/public/2023-10/day-7-man-cries-worrying-on-sister.jpg?itok=nsGbupDS&amp;timestamp=1697739499 1.5x, https://electronicintifada.net/sites/default/files/styles/original_1200w/public/2023-10/day-7-man-cries-worrying-on-sister.jpg?itok=z56s9TzW&amp;timestamp=1697739499 1x, https://electronicintifada.net/sites/default/files/styles/original_2400w/public/2023-10/day-7-man-cries-worrying-on-sister.jpg?itok=vvealnJa&amp;timestamp=1697739499 2x" media="(min-width: 72rem)"></source>
+<!--[if IE 9]></video><![endif]-->
+<img class="media-element file-figure-wide" src="https://electronicintifada.net/sites/default/files/styles/original_800w/public/2023-10/day-7-man-cries-worrying-on-sister.jpg?itok=ojU6wx-Y&amp;timestamp=1697739499" width="800" height="533" alt="A man cries, looking into the middle distance" title />
+</picture><figcaption class="group-caption field-group-html-element">
+<p>Consumed by worry over his sister, a man breaks down in tears. </p><small class="credit">
+<span class="field field-author">Mahmoud Nasser</span></small></figcaption></figure>
+<h2>Day 12, Wednesday 18 October</h2>
+<p><a href="https://electronicintifada.net/blogs/maureen-clare-murphy/hospital-massacre-compounds-gazas-nightmare">Five hundred dead</a>! The saddest and most horrific day of all.</p>
+<p>Hospitals are targets. Israel has gone completely genocidal.</p>
+<p>I can’t believe what has happened. No one can. As soon as the news breaks, everyone is in a state of complete shock.</p>
+<p>We sit around, almost 15 of us, not uttering a word.</p>
+<p>Things are getting so bad. I am not sure who we plead to, or what to do.</p>
+<p>For now we just survive.</p>
+<p><em>Mahmoud Nasser is a Gaza-based photographer and writer.</em></p> <h3 class="field-label field field-tag">
+<i class="fa fa-tags"></i> <span>Tags</span>
+</h3>
+<ul class="field field-tag">
+<li>
+<a href="/tags/humanitarian-aid" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype>humanitarian aid</a> </li>
+<li>
+<a href="/tags/genocide" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype>genocide</a> </li>
+<li>
+<a href="/tags/international-law" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype>international law</a> </li>
+<li>
+<a href="/tags/international-humanitarian-law" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype>international humanitarian law</a> </li>
+<li>
+<a href="/tags/human-rights-and-international-humanitarian-law-secretariat" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype>Human Rights and International Humanitarian Law Secretariat</a> </li>
+</ul>
+<ul class="links inline"><li class="ei_facebook first"><a href="https://www.facebook.com/sharer.php?u=https%3A//electronicintifada.net/content/now-we-just-survive/38996" class="popup"><i class="fa fa-facebook-official fa-2x"></i><span> Facebook</span></a></li>
+<li class="ei_twitter last"><a href="https://twitter.com/intent/tweet?text=For%20now%2C%20we%20just%20survive&amp;url=https%3A//electronicintifada.net/content/now-we-just-survive/38996" class="popup"><i class="fa fa-twitter fa-2x"></i><span> Twitter</span></a></li>
+</ul><ul class="links inline donate"><li class="donate-now first last"><a href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=3728&amp;code=node%2038996"><img typeof="foaf:Image" src="https://npo.networkforgood.org/Core/Images/DonateNowButtons/Small/DarkRed.gif" width="180" height="60" alt="Donate now" /></a></li>
+</ul>
+<section id="comments" class="comments comment-wrapper">
+<h2 class="comments__form-title title comment-form"><i class="fa fa-comment"></i> Add new comment</h2>
+<form class="comment-form user-info-from-cookie" action="/comment/reply/38996" method="post" id="comment-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+<label for="edit-name">Your name </label>
+<input type="text" id="edit-name" name="name" value size="30" maxlength="60" class="form-text" />
+</div>
+<div class="form-item form-type-textfield form-item-mail">
+<label for="edit-mail">E-mail </label>
+<input type="text" id="edit-mail" name="mail" value size="30" maxlength="64" class="form-text" />
+<div class="description">The content of this field is kept private and will not be shown publicly.</div>
+</div>
+<div class="form-item form-type-textfield form-item-homepage">
+<label for="edit-homepage">Homepage </label>
+<input type="text" id="edit-homepage" name="homepage" value size="30" maxlength="255" class="form-text" />
+</div>
+<div class="form-item form-type-textfield form-item-subject">
+<label for="edit-subject">Subject </label>
+<input type="text" id="edit-subject" name="subject" value size="60" maxlength="64" class="form-text" />
+</div>
+<a href="/content/comments-policy/10197" class="comment-help" target="_blank" id="edit-comment-policy">Comment policy</a><div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper" id="edit-comment-body"><div id="comment-body-add-more-wrapper"><div class="text-format-wrapper"><div class="form-item form-type-textarea form-item-comment-body-und-0-value">
+<label for="edit-comment-body-und-0-value">Comment <span class="form-required" title="This field is required.">*</span></label>
+<div class="form-textarea-wrapper resizable"><textarea class="text-full wysiwyg maxlength form-textarea required" maxlength_js_label="Content limited to @limit characters, remaining: &lt;strong&gt;@remaining&lt;/strong&gt;" maxlength="2000" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5"></textarea></div>
+</div>
+<div class="filter-wrapper form-wrapper" id="edit-comment-body-und-0-format"></div></div>
+</div></div><input type="hidden" name="form_build_id" value="form-60Uhs_xvwjKUnONmz6JAUrB_2tzgaj3RsRHCalc2OPY" />
+<input type="hidden" name="form_id" value="comment_node_story_form" />
+<div class="form-item form-type-checkbox form-item-notify">
+<input type="checkbox" id="edit-notify" name="notify" value="1" checked="checked" class="form-checkbox" /> <label class="option" for="edit-notify">Notify me when new comments are posted </label>
+</div>
+<div id="edit-notify-type" class="form-radios"><div class="form-item form-type-radio form-item-notify-type">
+<input type="radio" id="edit-notify-type-1" name="notify_type" value="1" checked="checked" class="form-radio" /> <label class="option" for="edit-notify-type-1">All comments </label>
+</div>
+<div class="form-item form-type-radio form-item-notify-type">
+<input type="radio" id="edit-notify-type-2" name="notify_type" value="2" class="form-radio" /> <label class="option" for="edit-notify-type-2">Replies to my comment </label>
+</div>
+</div><input type="hidden" name="honeypot_time" value="1701414130|L5rM4Drzf_3Y7agto-qxSMJjTCKoHeDDpM4zFNuGWlg" />
+<fieldset class="captcha form-wrapper"><legend><span class="fieldset-legend">CAPTCHA</span></legend><div class="fieldset-wrapper"><div class="fieldset-description">This question is for testing whether or not you are a human visitor and to prevent automated spam submissions.</div><input type="hidden" name="captcha_sid" value="3256621" />
+<input type="hidden" name="captcha_token" value="a0d5d404cadd943b18c27a784ef7264e" />
+<input type="hidden" name="captcha_response" value="Turnstile no captcha" />
+<div class="cf-turnstile" data-sitekey="0x4AAAAAAAMrAutCwrKjf3ng" data-theme="auto"></div></div></fieldset>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Save" class="form-submit" /><input type="submit" id="edit-preview" name="op" value="Preview" class="form-submit" /></div><div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+<label for="edit-url">Leave this field blank </label>
+<input autocomplete="off" type="text" id="edit-url" name="url" value size="20" maxlength="128" class="form-text" />
+</div>
+</div></div></form> </section>
+</article>
+</div><div class="pond-footer"><div class="view view-author-nodes view-id-author_nodes view-display-id-panel_pane_1 view-dom-id-dd31fd01f434137023603f5e07664432">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<article class="node-41571 node node-story view-mode-billboard image-landscape" about="/content/farewell-my-beloved-gaza/41571" typeof="sioc:Item foaf:Document">
+<figure class="field field-image">
+<a href="/content/farewell-my-beloved-gaza/41571"><picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2023-11/5-2122-20231112.jpg?itok=nQtqe4Kt&amp;timestamp=1700747236 1x" media="(min-width: 72rem)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2023-11/5-2122-20231112.jpg?itok=nQtqe4Kt&amp;timestamp=1700747236" width="480" height="360" alt="Two people walk across an empty courtyard" title />
+</picture></a> </figure>
+<header>
+<h2 class="node__title node-title"><a href="/content/farewell-my-beloved-gaza/41571">A farewell to my beloved Gaza</a></h2>
+<span property="dc:title" content="A farewell to my beloved Gaza" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<p class="node__submitted">
+<span class="field field-author">Mahmoud Nasser</span>
+<span class="field field-publication-date"><span property="dc:date" datatype="xsd:dateTime" content="2023-11-23T13:45:00+00:00" class="date-display-single">23 November 2023</span></span> </p>
+</header>
+</article>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<article class="node-40751 node node-story view-mode-billboard image-landscape" about="/content/quest-bread-focuses-resilient-minds/40751" typeof="sioc:Item foaf:Document">
+<figure class="field field-image">
+<a href="/content/quest-bread-focuses-resilient-minds/40751"><picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2023-11/3-9533-20231108.jpg?itok=Q_2tMILM&amp;timestamp=1700036418 1x" media="(min-width: 72rem)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2023-11/3-9533-20231108.jpg?itok=Q_2tMILM&amp;timestamp=1700036418" width="480" height="320" alt="Man reaches for freshly baked bread" title />
+</picture></a> </figure>
+<header>
+<h2 class="node__title node-title"><a href="/content/quest-bread-focuses-resilient-minds/40751">The quest for bread focuses resilient minds</a></h2>
+<span property="dc:title" content="The quest for bread focuses resilient minds" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<p class="node__submitted">
+<span class="field field-author">Mahmoud Nasser</span>
+<span class="field field-publication-date"><span property="dc:date" datatype="xsd:dateTime" content="2023-11-15T17:25:00+00:00" class="date-display-single">15 November 2023</span></span> </p>
+</header>
+</article>
+</div>
+<div class="views-row views-row-3 views-row-odd views-row-last">
+<article class="node-40161 node node-story view-mode-billboard image-landscape" about="/content/cursed-fate-gazas-children/40161" typeof="sioc:Item foaf:Document">
+<figure class="field field-image">
+<a href="/content/cursed-fate-gazas-children/40161"><picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2023-11/16-9498-20231104.jpg?itok=824_8Ngj&amp;timestamp=1699429261 1x" media="(min-width: 72rem)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2023-11/16-9498-20231104.jpg?itok=824_8Ngj&amp;timestamp=1699429261" width="480" height="320" alt="A man and two children warm themselves by a fire" title />
+</picture></a> </figure>
+<header>
+<h2 class="node__title node-title"><a href="/content/cursed-fate-gazas-children/40161">The cursed fate of Gaza&#039;s children</a></h2>
+<span property="dc:title" content="The cursed fate of Gaza&#039;s children" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<p class="node__submitted">
+<span class="field field-author">Mahmoud Nasser</span>
+<span class="field field-publication-date"><span property="dc:date" datatype="xsd:dateTime" content="2023-11-08T15:35:00+00:00" class="date-display-single">8 November 2023</span></span> </p>
+</header>
+</article>
+</div>
+</div>
+</div><article class="node-38111 node node-story view-mode-billboard image-landscape" about="/content/where-am-i-supposed-go/38111" typeof="sioc:Item foaf:Document">
+<figure class="field field-image">
+<a href="/content/where-am-i-supposed-go/38111"><picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2023-07/gaza0010.jpg?itok=xCB0qXSL&amp;timestamp=1688459888 1x" media="(min-width: 72rem)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2023-07/gaza0010.jpg?itok=xCB0qXSL&amp;timestamp=1688459888" width="480" height="320" alt="Two young men walk beside a building with much debris on the ground " title />
+</picture></a> </figure>
+<header>
+<h2 class="node__title node-title"><a href="/content/where-am-i-supposed-go/38111">&quot;Where am I supposed to go?&quot; </a></h2>
+<span property="dc:title" content="&quot;Where am I supposed to go?&quot; " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<p class="node__submitted">
+<span class="field field-author">Ola Mousa</span>
+<span class="field field-publication-date"><span property="dc:date" datatype="xsd:dateTime" content="2023-07-04T08:22:00+00:00" class="date-display-single">4 July 2023</span></span> </p>
+</header>
+</article>
+<article class="node-14659 node node-story view-mode-billboard image-landscape" about="/content/when-will-dad-come-back/14659" typeof="sioc:Item foaf:Document">
+<figure class="field field-image">
+<a href="/content/when-will-dad-come-back/14659"><picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2015-07/020715_ash_00_26.jpg?itok=FF2-5WbD&amp;timestamp=1448949295 1x" media="(min-width: 72rem)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2015-07/020715_ash_00_26.jpg?itok=FF2-5WbD&amp;timestamp=1448949295" width="480" height="320" alt title />
+</picture></a> </figure>
+<header>
+<h2 class="node__title node-title"><a href="/content/when-will-dad-come-back/14659">When will Dad come back?</a></h2>
+<span property="dc:title" content="When will Dad come back?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<p class="node__submitted">
+<span class="field field-author">Refaat Alareer</span>
+<span class="field field-publication-date"><span property="dc:date" datatype="xsd:dateTime" content="2015-07-02T15:37:00+00:00" class="date-display-single">2 July 2015</span></span> </p>
+</header>
+</article>
+<article class="node-15851 node node-blog view-mode-billboard image-landscape" about="/blogs/maureen-clare-murphy/palestinian-killed-israel-uses-hannibal-directive-refugee-camp" typeof="sioc:Item foaf:Document">
+<figure class="field field-image">
+<a href="/blogs/maureen-clare-murphy/palestinian-killed-israel-uses-hannibal-directive-refugee-camp"><picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2016-03/010316_shh_00_13.jpg?itok=RPfzk_k1&amp;timestamp=1456857300 1x" media="(min-width: 72rem)" />
+<!--[if IE 9]></video><![endif]-->
+<img src="https://electronicintifada.net/sites/default/files/styles/original_480w/public/2016-03/010316_shh_00_13.jpg?itok=RPfzk_k1&amp;timestamp=1456857300" width="480" height="320" alt title />
+</picture></a> </figure>
+<header>
+<h2 class="node__title node-title"><a href="/blogs/maureen-clare-murphy/palestinian-killed-israel-uses-hannibal-directive-refugee-camp">Palestinian killed as Israel uses Hannibal Directive in refugee camp</a></h2>
+<span property="dc:title" content="Palestinian killed as Israel uses Hannibal Directive in refugee camp" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<p class="node__submitted">
+</p>
+</header>
+</article>
+</div> </div>
+<div id="navigation" class="navigation__region">
+<nav id="main-menu" role="navigation" tabindex="-1">
+<h2 class="element-invisible">Main menu</h2><ul class="links"><li class="menu-3328 first"><a href="/news">Features</a></li><li class="menu-3329"><a href="/opinion">Opinion and analysis</a></li><li class="menu-3330"><a href="/review">Reviews</a></li><li class="menu-375"><a href="/blog" title>Blogs</a></li><li class="menu-12571 last"><a href="/updates" class="menu-item-updates">Updates</a></li></ul> </nav>
+<ul class="social-media"><li><a href="https://twitter.com/intifada" title="Twitter"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li><li><a href="https://www.facebook.com/electronicintifada" title="Facebook"><i class="fa fa-facebook-official fa-2x"></i><span>Facebook</span></a></li><li><a href="https://www.youtube.com/user/electronicIntifada" title="YouTube"><i class="fa fa-youtube fa-2x"></i><span>YouTube</span></a></li></ul><form action="/content/now-we-just-survive/38996" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+<h2 class="element-invisible">Search form</h2>
+<div class="form-item form-type-textfield form-item-search-block-form">
+<label class="element-invisible" for="edit-search-block-form--2">Search </label>
+<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-jNeDRcOXtdmmP7QC9Fju-NLTzGMHfMDqvpSnnUbCKUo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form> </div>
+</div>
+<footer id="footer" class="region region-footer">
+<p>© 2000-2023 electronicIntifada.net</p><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/about-ei" title class="menu__link">About EI</a></li>
+<li class="menu__item is-leaf leaf"><a href="/contact" title class="menu__link">Contact</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/content/submit-content-electronic-intifada/3" class="menu__link">Submit to EI</a></li>
+</ul> </footer>
+</div>
+<div class="region region-bottom">
+<div id="block-block-11" class="block block-block first last odd">
+<script src="https://api.bloomerang.co/v1/WebsiteVisit?ApiKey=pub_152ad06f-c818-11ed-9377-022ec14a852f" type="text/javascript"></script>
+</div>
+</div>
+<script src="https://electronicintifada.net/sites/default/files/js/js_u5pULl41cVdFlQHnIlyUR6g6pLyvfl5pWv-z-rR9PgA.js"></script>
+<script src="https://electronicintifada.net/sites/default/files/js/js_KRok26Wf87YWMrJwX9rYkT3AMYuhivv4Mj7KKypNdOY.js"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-2030798-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-2030798-1", {"":"Human Interest","groups":"default","anonymize_ip":true});</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"sumud","theme_token":"UygvV4eyhgTcG7fuhctuI3LWXJvwDQL8ICmtQ-GlnhU","js":{"sites\/all\/modules\/drupal\/picture\/picturefill\/picturefill.min.js":1,"modules\/statistics\/statistics.js":1,"sites\/all\/modules\/drupal\/jquery_update\/replace\/jquery\/1.12\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/drupal\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/drupal\/comment_notify\/comment_notify.js":1,"profiles\/electronicintifada\/themes\/sumud\/js\/script.js":1,"sites\/all\/modules\/bangpound\/bangpoundshare\/bangpoundshare.links.js":1,"sites\/all\/modules\/drupal\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"misc\/form-single-submit.js":1,"sites\/all\/modules\/drupal\/captcha\/captcha.js":1,"misc\/textarea.js":1,"modules\/filter\/filter.js":1,"sites\/all\/modules\/drupal\/maxlength\/js\/maxlength.js":1,"sites\/all\/modules\/drupal\/google_analytics\/googleanalytics.js":1,"sites\/all\/modules\/drupal\/field_group\/field_group.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-2030798-1":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/drupal\/comment_notify\/comment_notify.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/drupal\/views\/css\/views.css":1,"sites\/all\/modules\/drupal\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"profiles\/electronicintifada\/themes\/sumud\/system.menus.css":1,"profiles\/electronicintifada\/themes\/sumud\/system.messages.css":1,"profiles\/electronicintifada\/themes\/sumud\/system.theme.css":1,"profiles\/electronicintifada\/themes\/sumud\/comment_notify.css":1,"profiles\/electronicintifada\/themes\/sumud\/bangpoundmedia.css":1,"profiles\/electronicintifada\/themes\/sumud\/date.css":1,"profiles\/electronicintifada\/themes\/sumud\/views.css":1,"profiles\/electronicintifada\/themes\/sumud\/panels.css":1,"profiles\/electronicintifada\/themes\/sumud\/css\/styles.css":1,"sites\/all\/modules\/drupal\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/drupal\/date\/date_api\/date.css":1,"modules\/filter\/filter.css":1,"public:\/\/honeypot\/honeypot.css":1}},"chartbeat":{"uid":62876,"domain":"electronicintifada.net","useCanonical":true,"noCookies":false},"field_group":{"html-element":"figure_wide"},"statistics":{"data":{"nid":"38996"},"url":"\/modules\/statistics\/statistics.php"},"bangpoundShareLinks":{"popupWidth":550,"popupHeight":450},"wysiwyg":{"triggers":{"edit-comment-body-und-0-value":{"field":"edit-comment-body-und-0-value","resizable":1,"activeFormat":"plain_text"}}},"urlIsAjaxTrusted":{"\/comment\/reply\/38996":true,"\/content\/now-we-just-survive\/38996":true},"googleanalytics":{"account":["UA-2030798-1"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"currentPath":"node\/38996","currentPathIsAdmin":false,"password":{"strengthTitle":"Password compliance:"},"type":"setting"});</script>
+<div class="region region-page-bottom">
+<script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script> </div>
+<script src="https://electronicintifada.net/sites/default/files/js/js_xfMb24NPUVdFsCeLX6PJTbRcjmIZYoqCGlIgG6FigBE.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a05213e6bf","applicationID":"11827041","transactionName":"NAZUYUVYDUYEUURdXA1Md1ZDUAxbSkJRU1Y8DldbVl4GRzpcX1BWPBVfUEBmE1QCVw==","queueTime":4,"applicationTime":2209,"atts":"GEFXFw1CHkg=","errorBeacon":"bam.nr-data.net","agent":""}</script><script>(function(){var js = "window['__CF$cv$params']={r:'82eaa9ea992dd377',t:'MTcwMTQyNjcyMC43NjYwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"82eaa9ea992dd377","b":1,"version":"2023.10.0","token":"e015f76795dc47a0870a4fd95d062995"}' crossorigin="anonymous"></script>
+</body>
+</html>

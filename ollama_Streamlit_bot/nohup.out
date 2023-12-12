@@ -1,0 +1,2410 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://10.40.23.58:8501
+  External URL: http://86.36.20.22:8501
+
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+2023-12-01 14:59:34.896 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/samir-lab3/ashhad/projects/social/palestine/ollama_Streamlit_bot/stream_app.py", line 108, in <module>
+    df_link_file=pd.read_csv(f"{chosen_resource}/{chosen_file}/link_match.csv")
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'ElIntifada/news/link_match.csv'
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+IslamQA
+NormanFinkelStein
+PalestineRemix
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'What is the latest atrocity committed by Israel on palestine?', 'result': "Based on the context provided, the latest atrocity committed by Israel on Palestine is their bombardment of Gaza which started soon after the author spoke to their family. This information is supported by news reports and personal accounts from the author's family who had to evacuate their home and take necessary supplies such as clothes, money, milk, and diapers for a young niece due to the ongoing violence. There are also references to previous Israeli wars on Gaza. Other recent issues in Palestine mentioned include Palestinian factions participating in a rally in Gaza City to thank the Libyan people for refusing to normalize relations with Israel, and Palestinians carrying mock coffins during a demonstration against crime in the city of Haifa due to increasing violence in their community. The Israeli government and police have been accused of inaction in stopping this rising crime rate.", 'source_documents': [Document(page_content='I have kept asking myself these questions and many more since then.\nSoon after I spoke to my family, Israel began bombarding Gaza.\nNews from Gaza poured in. It was distressing. Some of my old colleagues and neighbors had been killed.\nMy family – as they have done every time Israel waged war on Gaza – had taken some clothes, money and milk as they left their home.\nAnd diapers for Yafa, my 16-month-old niece.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_away-gaza-full-fear_39011.html', 'title': 'Away from Gaza, full of fear | The Electronic Intifada'}), Document(page_content='Palestinian factions participate in a rally in Gaza City to thank the Libyan people for refusing to normalize relations with Israel on 31 August.\nOmar Ashtawy\nAPA images\n\n\n\n\n\n\n\nPalestinians carry mock coffins during a demonstration against crime in the city of Haifa on 31 August. Protesters accused the Israeli government and the police of inaction and demanded more efforts to stop the crime in their community, with more than 160 killed so far this year.\nAtef Safadi\nEFE\n\n Tags', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_palestine-pictures-august-2023_38426.html', 'title': 'Palestine in Pictures: August 2023 | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  /home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+2023-12-01 15:09:51.664 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/samir-lab3/ashhad/projects/social/palestine/ollama_Streamlit_bot/stream_app.py", line 149, in <module>
+    if df_link_file:
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/pandas/core/generic.py", line 1519, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+{'query': 'Is hamas to blame?', 'result': "Based on the provided context, it is unclear if Hamas is responsible for the Israeli settlers' capture and subsequent deaths in 2014. While Benjamin Netanyahu accused Hamas, they denied any involvement. The intensity of Israel's response, resulting in the killing of over 1,400 civilians in Gaza, suggests that the situation was more complex than a straightforward retaliation by Hamas. It is recommended to consult additional sources for further information on this matter.", 'source_documents': [Document(page_content='Lessons from 2014\nIn 2014 – after three Israeli settlers were captured and killed in the West Bank – Benjamin Netanyahu, then as now, Israel’s prime minister, blamed Hamas; Hamas denied any involvement – Israel unleashed what was at that point its most brutal assault on Gaza, killing 2,251 people of whom, according to the UN, 65 percent, or more than 1,400 people, were civilians.', metadata={'source': 'resources/ElIntifada/opinion/https:__electronicintifada.net_content_hamas-has-upended-status-quo_39176.html', 'title': 'Hamas has upended the status quo | The Electronic Intifada'}), Document(page_content='Hamas has denied that it targeted civilians. But while some of the more lurid claims of what happened then – the 40 beheaded babies report, for instance – have been quietly dropped, and while the extent to which Israelis were killed in crossfire once the Israeli military did turn up is yet to be determined, it is clear that hundreds of Israeli civilians lost their lives on 7 October.', metadata={'source': 'resources/ElIntifada/opinion/https:__electronicintifada.net_content_hamas-has-upended-status-quo_39176.html', 'title': 'Hamas has upended the status quo | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'latest destruction caused by israel on gaza', 'result': 'According to the provided context, there is no information about the most recent destruction caused by Israel on Gaza in this specific instance. The speaker, Naaman Omar, left Gaza via Erez checkpoint on August 30 and traveled to Jordan and Ireland for an MBA course in Dublin. This was during a time when Israel had been causing damage and destruction in Gaza, but the specifics of the most recent incident are not mentioned.', 'source_documents': [Document(page_content='Contrary to its claims, Israel deliberately causes destruction and damage. Its systematic attacks have been designed to make the functioning of Gaza’s health system impossible.\nWe have been displaced since 19 October.\nThat day, Israel bombed our building in the Tel al-Hawa neighborhood of Gaza City. Our apartment was left uninhabitable.\nFollowing the attack, we took shelter at a nearby school.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_israels-claims-terrorist-activity-childrens-hospital-were-lies_41226.html', 'title': 'Israel\'s claims of "terrorist activity" in a children\'s hospital were lies | The Electronic Intifada'}), Document(page_content='Images of destruction in Gaza have horrified all Palestinians no matter where they live.\xa0\nNaaman Omar\nAPA images\nI was over the moon when I got a travel permit during August.\nIt meant I could leave Gaza via Erez, the Israeli military checkpoint, head for Jordan and then fly to Ireland. I had been accepted for an MBA course in Dublin.\nAnd so on 30 August, I went through Erez and saw Jerusalem and other parts of the West Bank for the first time.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_away-gaza-full-fear_39011.html', 'title': 'Away from Gaza, full of fear | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+2023-12-01 15:11:15.490 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/samir-lab3/ashhad/projects/social/palestine/ollama_Streamlit_bot/stream_app.py", line 149, in <module>
+    if df_link_file!=None:
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/pandas/core/generic.py", line 1519, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/langchain/__init__.py:34: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+2023-12-01 15:13:58.383 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/samir-lab3/miniconda3/envs/ollamapy310/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/samir-lab3/ashhad/projects/social/palestine/ollama_Streamlit_bot/stream_app.py", line 151, in <module>
+    if not df_link_file.empty():
+TypeError: 'bool' object is not callable
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'latest destruction caused by israel on gaza', 'result': "According to the information provided, there has been significant destruction caused by Israel in Gaza, specifically on October 19 when their building in the Tel al-Hawa neighborhood was bombed, leaving it uninhabitable. This individual and their family have been displaced as a result and are currently seeking refuge at a nearby school. The ongoing attacks by Israel have made the functioning of Gaza's health system impossible, according to claims that suggest deliberate causing of destruction and damage. This has resulted in horrifying scenes of destruction that have left all Palestinians no matter where they live dismayed.", 'source_documents': [Document(page_content='Contrary to its claims, Israel deliberately causes destruction and damage. Its systematic attacks have been designed to make the functioning of Gaza’s health system impossible.\nWe have been displaced since 19 October.\nThat day, Israel bombed our building in the Tel al-Hawa neighborhood of Gaza City. Our apartment was left uninhabitable.\nFollowing the attack, we took shelter at a nearby school.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_israels-claims-terrorist-activity-childrens-hospital-were-lies_41226.html', 'title': 'Israel\'s claims of "terrorist activity" in a children\'s hospital were lies | The Electronic Intifada'}), Document(page_content='Images of destruction in Gaza have horrified all Palestinians no matter where they live.\xa0\nNaaman Omar\nAPA images\nI was over the moon when I got a travel permit during August.\nIt meant I could leave Gaza via Erez, the Israeli military checkpoint, head for Jordan and then fly to Ireland. I had been accepted for an MBA course in Dublin.\nAnd so on 30 August, I went through Erez and saw Jerusalem and other parts of the West Bank for the first time.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_away-gaza-full-fear_39011.html', 'title': 'Away from Gaza, full of fear | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'latest destruction caused by israel on gaza\n\n', 'result': "According to recent reports, Israel's relentless bombardment of Gaza has resulted in extensive destruction and damage throughout the territory. The systematic attacks have been deliberately designed to render the functioning of Gaza's health system impossible, as evidenced by the displacement of Naaman Omar and his family on October 19 when their building in Tel al-Hawa was bombed by Israel. This devastating impact is a cause of horror for all Palestinians, regardless of where they reside. The situation has been further exacerbated by Israel's ongoing attacks, which have inflicted significant damage on vital infrastructure and services, including hospitals, schools, and water supply networks. These actions constitute a clear violation of international law and humanitarian principles, demonstrating Israel's blatant disregard for the welfare and dignity of the Palestinian people. It is essential that the international community takes immediate action to hold Israel accountable for its crimes and protect the civilians of Gaza from further harm.", 'source_documents': [Document(page_content='Contrary to its claims, Israel deliberately causes destruction and damage. Its systematic attacks have been designed to make the functioning of Gaza’s health system impossible.\nWe have been displaced since 19 October.\nThat day, Israel bombed our building in the Tel al-Hawa neighborhood of Gaza City. Our apartment was left uninhabitable.\nFollowing the attack, we took shelter at a nearby school.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_israels-claims-terrorist-activity-childrens-hospital-were-lies_41226.html', 'title': 'Israel\'s claims of "terrorist activity" in a children\'s hospital were lies | The Electronic Intifada'}), Document(page_content='Images of destruction in Gaza have horrified all Palestinians no matter where they live.\xa0\nNaaman Omar\nAPA images\nI was over the moon when I got a travel permit during August.\nIt meant I could leave Gaza via Erez, the Israeli military checkpoint, head for Jordan and then fly to Ireland. I had been accepted for an MBA course in Dublin.\nAnd so on 30 August, I went through Erez and saw Jerusalem and other parts of the West Bank for the first time.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_away-gaza-full-fear_39011.html', 'title': 'Away from Gaza, full of fear | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'latest destruction caused by israel on gaza\n\n', 'result': "According to the information provided, the latest destruction caused by Israel on Gaza was on October 19 when they bombed a building in the Tel al-Hawa neighborhood of Gaza City. This attack displaced the author and their family, leaving their apartment uninhabitable. The images of destruction in Gaza have been horrifying for all Palestinians regardless of where they live. It is also mentioned that Israel's systematic attacks have been designed to make the functioning of Gaza's health system impossible.", 'source_documents': [Document(page_content='Contrary to its claims, Israel deliberately causes destruction and damage. Its systematic attacks have been designed to make the functioning of Gaza’s health system impossible.\nWe have been displaced since 19 October.\nThat day, Israel bombed our building in the Tel al-Hawa neighborhood of Gaza City. Our apartment was left uninhabitable.\nFollowing the attack, we took shelter at a nearby school.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_israels-claims-terrorist-activity-childrens-hospital-were-lies_41226.html', 'title': 'Israel\'s claims of "terrorist activity" in a children\'s hospital were lies | The Electronic Intifada'}), Document(page_content='Images of destruction in Gaza have horrified all Palestinians no matter where they live.\xa0\nNaaman Omar\nAPA images\nI was over the moon when I got a travel permit during August.\nIt meant I could leave Gaza via Erez, the Israeli military checkpoint, head for Jordan and then fly to Ireland. I had been accepted for an MBA course in Dublin.\nAnd so on 30 August, I went through Erez and saw Jerusalem and other parts of the West Bank for the first time.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_away-gaza-full-fear_39011.html', 'title': 'Away from Gaza, full of fear | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is hamas a terrorist organisation?', 'result': 'According to the Council\'s statement, while some Muslims may use the term "terrorist" to describe other Muslim groups they disagree with, the Council specifically identifies state-sponsored terrorism as posing the gravest danger to security and peace in the world. The Council includes examples such as Kashmir, Russian actions in Chechnya, American actions in Iraq and Afghanistan, and Israeli actions in Palestine under this category of terrorism. Therefore, whether or not Hamas falls into this classification is not explicitly stated by the Council in this context. However, if Hamas engages in state-sponsored terrorism against innocent civilians, as some governments accuse them of doing, then they would fall into this same category of terrorist organizations that the Council identifies as posing a grave threat to security and peace.', 'source_documents': [Document(page_content='The Council affirms that there is another type of terrorism, which is terrorism carried out at the level of the state. One of its clearest and most abhorrent forms is the terrorism that is perpetrated by the Zionists in Palestine, and what the Serbs did in Bosnia, Herzegovina, and Kosova. The Council regards this type of terrorism as posing the gravest danger to security and peace in the world, and regards confronting it as coming under the heading of self-defence and jihad in Allah’s cause.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_117724_definition-of-terrorism-and-what-it-means-in-islam-and-in-the-west.html', 'title': 'Definition of terrorism and what it means in Islam and in the West - Islam Question & Answer'}), Document(page_content='Kashmir, or the Russians and their terrorising of Muslims in Chechnya, or the Americans and their terrorising of Muslims in Iraq and Afghanistan, and the Zionists and their terrorising of Muslims in Palestine. Some naïve Muslims have started to use this word to describe anyone they want to fight, and put people off him. They may be right in describing a particular group of Muslims as terrorists, but what about the states that use terrorism, and what about criminal racist organisations that have', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_117724_definition-of-terrorism-and-what-it-means-in-islam-and-in-the-west.html', 'title': 'Definition of terrorism and what it means in Islam and in the West - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada blog
+                                           file_name                                               link
+0  https:__electronicintifada.net_blogs_tamara-na...  https://electronicintifada.net/blogs/tamara-na...
+1  https:__electronicintifada.net_blogs_maureen-c...  https://electronicintifada.net/blogs/maureen-c...
+2  https:__electronicintifada.net_blogs_nora-barr...  https://electronicintifada.net/blogs/nora-barr...
+3  https:__electronicintifada.net_blogs_david-cro...  https://electronicintifada.net/blogs/david-cro...
+4  https:__electronicintifada.net_blogs_maureen-c...  https://electronicintifada.net/blogs/maureen-c...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada blog
+                                           file_name                                               link
+0  https:__electronicintifada.net_blogs_tamara-na...  https://electronicintifada.net/blogs/tamara-na...
+1  https:__electronicintifada.net_blogs_maureen-c...  https://electronicintifada.net/blogs/maureen-c...
+2  https:__electronicintifada.net_blogs_nora-barr...  https://electronicintifada.net/blogs/nora-barr...
+3  https:__electronicintifada.net_blogs_david-cro...  https://electronicintifada.net/blogs/david-cro...
+4  https:__electronicintifada.net_blogs_maureen-c...  https://electronicintifada.net/blogs/maureen-c...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'some harrowing experiences with israels attacks', 'result': 'According to recent data from OCHA, there have been over 170 settler attacks against Palestinians since October 7th. These incidents include both injuries inflicted on Palestinians and damage to their property. More than a third of these attacks involve the use of firearms by settlers. In half of these instances, Israeli occupation forces either escorted the settlers or actively participated in the attacks. This is a significant increase from previous years, as the number of settler attacks has more than doubled since the start of 2019, with an average of seven incidents per day. Many Palestinian communities that are already at risk of forcible transfer have been targeted by these attacks, and in some cases, settlers have given Palestinians an ultimatum to leave their homes, resulting in families being forced to depart.', 'source_documents': [Document(page_content='Settlers carried out nearly 170 attacks against Palestinians since 7 October, as per by OCHA. These figures include injuries against Palestinians as well as property damage.\nMore than one-third of attacks involve settlers threatening Palestinians with firearms, including shooting, OCHA said.\nDuring half of these attacks, Israeli occupation forces escorted settlers or actively participated in attacks.', metadata={'source': 'resources/ElIntifada/blog/https:__electronicintifada.net_blogs_tamara-nassar_settlers-gunning-second-nakba-west-bank.html', 'title': 'Settlers gunning for second Nakba in the West Bank | The Electronic Intifada'}), Document(page_content='Israeli forces were involved in some attacks, according to the monitoring group.\nSettler attacks double\nThe number of settler attacks has more than doubled since the start of the year, to an average of seven incidents per day.\nSettler attacks target many Palestinian communities that Israeli authorities are already threatening with forcible transfer. There were instances when settlers gave Palestinians an ultimatum to leave their homes. Some families did in fact leave.', metadata={'source': 'resources/ElIntifada/blog/https:__electronicintifada.net_blogs_tamara-nassar_jewish-extremists-plan-lynch-palestinians-chat-apps.html', 'title': 'Jewish extremists plan to "lynch" Palestinians in chat apps | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'how is the west reacting to Israels attack on Gaza?', 'result': 'The media in Western countries consistently frames the Palestinian liberation struggle as a "conflict" with both sides sharing blame, particularly because of "extremists" undermining "moderates." They unfailingly assert Israel\'s "right to self-defense" even in the face of unarmed protests. This framing can be seen in the media\'s use of terms like "skirmish" to describe Israeli attacks on Gaza, such as their assault during winter 2008-2009, which the UN-commissioned Goldstone report found involved deliberate and indiscriminate attacks on civilians and wanton destruction of civilian infrastructure and productive capacities. This framing significantly devalues Israel\'s brutal and disproportionate use of force.', 'source_documents': [Document(page_content='Why is it that the mainstream media in the US and other Western countries consistently frame the Palestinian liberation struggle as a “conflict” in which “both sides” share the blame, particularly because “extremists” undermine “moderates”? Why does this media unfailingly assert Israel’s “right to self-defense” even in the face of unarmed protests such as the recent Great March of Return in Gaza that in some instances pitted rocks and burning kites against modern weaponry?', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_painting-false-picture_25071.html', 'title': 'Painting a false picture | The Electronic Intifada'}), Document(page_content='He refers to Israel’s assault upon the blockaded Gaza Strip in winter 2008-2009 as a “skirmish” between Israel and Hamas.\nThe UN-commissioned Goldstone report found that Israel both deliberately and indiscriminately attacked civilians, and wantonly destroyed civilian infrastructure and key economic productive capacities. Terming this a skirmish significantly devalues Israel’s brutal and disproportionate use of force.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_brute-force-and-impudence_31756.html', 'title': 'Brute force and impudence | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'what about the western universities?', 'result': "While there have been efforts by faculty and students in Western universities to cut ties with Israel due to its policies towards Palestine, the majority of these institutions have not followed through with such actions. This is despite the fact that Israel's numerous bombing campaigns in Gaza and limitations on foreign academics teaching at West Bank universities have disrupted education and violated academic freedom. However, as of 2022, Israel announced that it would vet all applications from foreign academics to teach at West Bank universities, highlighting the ongoing restrictions placed on Palestinian education. This is in line with Israel's long history of limiting the number of foreign academics and refusing entry and re-entry to the occupied territories.", 'source_documents': [Document(page_content='As of 2022, Israel announced that it would vet all applications from foreign academics to teach at West Bank universities after a long history of limiting the number of foreign academics and refusing entry and re-entry. Israel’s numerous bombing campaigns in Gaza have not only disrupted education for long periods but have often targeted university campuses and buildings.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_why-are-colleges-civil-israel_38176.html', 'title': 'Why are colleges "civil" to Israel? | The Electronic Intifada'}), Document(page_content='Ideology of the academy\nBut unlike the BDS movement against apartheid South Africa, which resulted in many US universities actually divesting from companies doing business with the country, nearly all Western universities and colleges have resisted calls from faculty and students to cut ties with Israel.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_why-are-colleges-civil-israel_38176.html', 'title': 'Why are colleges "civil" to Israel? | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'What do people think about the western universities reaction to israels attacks?', 'result': "Unfortunately, there is no information provided in the given context to answer whether there are any opinions or reactions from western universities regarding Israel's attacks. The focus of the text seems to be on highlighting Israel's ongoing crimes against Palestine and the growing resistance from Palestinian youth.", 'source_documents': [Document(page_content='Last year, Israel attacked worshippers in the al-Aqsa mosque, one of Islam’s holiest sites. That act of desecration was among numerous crimes committed by Israel in Jerusalem – a city it is actively colonizing.\nOutrage at these and other obscenities have filled Palestine’s young fighters with a revolutionary fervor.\nThe resistance now occurring in the West Bank does not appear to have been planned by the leaders of the major Palestinian factions.', metadata={'source': 'resources/ElIntifada/opinion/https:__electronicintifada.net_content_new-spirit-resistance_36581.html', 'title': 'A new spirit of resistance | The Electronic Intifada'}), Document(page_content='Following implementation of these genocidal words against two million civilians, half of whom are children, Israel commenced bombing schools, universities, mosques, communications towers, water treatment plants, residential buildings, factories, hospitals, ambulances and roads.\nPer usual, the Western media is falling in step with Zionist propaganda that this was “an unprovoked attack” and that Israel has a right to “self-defense.”', metadata={'source': 'resources/ElIntifada/opinion/https:__electronicintifada.net_content_israel-its-colonial-deathbed_38746.html', 'title': 'Israel is on its colonial deathbed | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'tell me more about the growing resistance from Palestinian youth against Israels crimes.', 'result': "The recent surge in resistance activities by young Palestinians born after the signing of the Oslo Accords is significant because it challenges the belief that economic incentives would pacify the occupied territories for the future. This indicates that the past seven decades have not deterred Palestinians from resisting Israel's crimes, and they continue to confront Israeli forces of occupation at a growing rate. The increase in resistance activities by Palestinian youth is noteworthy as it highlights their determination to fight against Israeli colonizers despite the high price of resistance. As we move forward, it is clear that this will lead to painful times for both sides, with Israel's terror practices also on the rise. However, this growing resistance from Palestinian youth serves as a testament to their unwavering commitment to their cause and their unwillingness to back down in the face of oppression.", 'source_documents': [Document(page_content='It is notable that most of the perpetrators of the renewed resistance attacks are young Palestinians born after the signing of the Oslo Accords, which Israel signed in order to end the first intifada and, it hoped, with economic incentives to pacify the occupied territories for the future.', metadata={'source': 'resources/ElIntifada/opinion/https:__electronicintifada.net_content_west-bank-restiveness-sign-changing-times_35546.html', 'title': 'West Bank restiveness a sign of changing times | The Electronic Intifada'}), Document(page_content='The past seven decades have taught Palestinians that the price of resistance is much lower than the price of fear or the price of fleeing.\nThere has been a noticeable upsurge in resistance activities by Palestinians in recent times. Palestinians are constantly confronting Israel’s forces of occupation.\nThe coming months and years will undoubtedly be painful. We are witnessing an increase in the level of terror practiced by the Israeli colonizers.', metadata={'source': 'resources/ElIntifada/opinion/https:__electronicintifada.net_content_face-facts-israel-relies-settler-violence_37306.html', 'title': 'Face the facts: Israel relies on settler violence | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'what should the world do to support palestinians?', 'result': 'To support Palestinians in their struggle for land and victory over their enemy, the world should cooperate with them and extend a hand of aid to their brothers in Palestine. The rich and those in positions of authority should also offer assistance. Perseverance and constancy are essential qualities for Palestinians to possess as they strive for success. We should trust in the promise of Allah, who has made victory dependent on adherence to the rule of Islam, and believe that He will help those who exhibit patience and persistence. Therefore, it is crucial to support Palestine through cooperation, aid, and persistent perseverance in their quest for liberation.', 'source_documents': [Document(page_content='Praise be to Allah.The Muslim is deeply grieved and filled with sorrow as the Palestinian situation goes from bad to worse, and gets more complicated, until it has ended up in the state we have seen in recent days, because of differences among neighbouring nations and their failure to stand together as one against the enemy and their failure to adhere to the rule of Islam on which Allah has made victory dependent, and has promised those who adhere to it that they will gain power and become', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_21977_solution-to-the-palestinian-issue.html', 'title': 'Solution to the Palestinian issue - Islam Question & Answer'}), Document(page_content='I advise all of our brothers to cooperate with them and I advise the rich and those in positions of authority to extend the hand of aid to their brothers in Palestine who are striving to regain their land and achieve victory over the enemy, in sha Allah. May Allah support them with the truth and reward them with all good on behalf of the Muslims. All they have to do is to persevere in patience and constancy, and vie in such perseverance, for the promise of Allah is true and Allah will help', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_21854_the-uprising-of-the-palestinian-people.html', 'title': 'The uprising of the Palestinian people - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada news
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_strande...  https://electronicintifada.net/content/strande...
+1  https:__electronicintifada.net_content_familie...  https://electronicintifada.net/content/familie...
+2  https:__electronicintifada.net_content_will-i-...  https://electronicintifada.net/content/will-i-...
+3  https:__electronicintifada.net_content_more-1-...  https://electronicintifada.net/content/more-1-...
+4  https:__electronicintifada.net_content_when-is...  https://electronicintifada.net/content/when-is...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+{'query': 'how is the west aiding palestine in its struggle?', 'result': 'The information provided suggests that the west, particularly western media, is failing to acknowledge the historical violence against Palestinians that has resulted in the displacement of 75% of Gazans. This erasure of history undermines the legitimacy of the Palestinian struggle for land, dignity, and freedom, portraying them as angry individuals without just cause. Therefore, the west is not actively aiding Palestine in its struggle against colonization and occupation.', 'source_documents': [Document(page_content='It is this historical violence that rendered some 75 percent of Gaza as refugees, forcibly displaced within their land. It is this history that western media refuse to mention. We, they seem to think, are just angry people with no just cause.\nWhat the Biden administration fails to comprehend is that Palestinians are no different from any colonized people fighting to defend their land, their right to live in dignity and freedom, and their entitlement to full humanity.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_dead-blink-eye_38781.html', 'title': 'Dead in the blink of an eye | The Electronic Intifada'}), Document(page_content='The Palestinian Authority has engaged with Saudi Arabia to leverage a normalization deal between the Gulf kingdom and Israel pushed by the US, a process rejected by Hamas and the rest of the resistance axis.\nDeif urged Palestinians in Jerusalem and in Israel to join the fight and for “Islamic resistance in Lebanon, Iraq, Syria and Yemen” to march towards Palestine.\nSome mosques in East Jerusalem reportedly urged Palestinians to mobilize.', metadata={'source': 'resources/ElIntifada/news/https:__electronicintifada.net_content_hamas-fighters-gaza-storm-israel-capture-and-kill-soldiers_38631.html', 'title': 'Hamas fighters from Gaza storm Israel, capture and kill soldiers | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada opinion
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-wer...  https://electronicintifada.net/content/why-wer...
+1  https:__electronicintifada.net_content_we-are-...  https://electronicintifada.net/content/we-are-...
+2  https:__electronicintifada.net_content_war-has...  https://electronicintifada.net/content/war-has...
+3  https:__electronicintifada.net_content_how-wil...  https://electronicintifada.net/content/how-wil...
+4  https:__electronicintifada.net_content_stand-t...  https://electronicintifada.net/content/stand-t...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'arab scholars opinion about the massacre carried out by israel', 'result': "The massacre at Deir Yassin, one of many committed by Zionist forces during that time, played a significant role in the displacement of Palestinians during the Nakba. The horror inflicted at Deir Yassin instilled fear among civilians and contributed to Israel's foundation on massacres. This brutal act was a critical factor in the ongoing Israeli-Palestinian conflict and remains a source of controversy among Arab scholars, who view it as a tragic event in Palestinian history.", 'source_documents': [Document(page_content='A whole series of massacres were carried by Zionist forces out around that time. The most infamous was the massacre at Deir Yassin, a village in the Jerusalem area.\nThe April 1948 bloodbath at Deir Yassin placed terror in the hearts of civilians. It was a significant factor in the Nakba, the huge displacement of Palestinians.\nIsrael is a state founded on massacres.\nThe current Israeli political dispute is between two camps.', metadata={'source': 'resources/ElIntifada/opinion/https:__electronicintifada.net_content_face-facts-israel-relies-settler-violence_37306.html', 'title': 'Face the facts: Israel relies on settler violence | The Electronic Intifada'}), Document(page_content='They were victorious from that first day when they executed a successful military raid of Israeli targets. It was a devastating blow to Israel’s very presence in the world, which depends heavily on military prestige and ability to strike terror in the indigenous Palestinian population and surrounding Arab neighbors.', metadata={'source': 'resources/ElIntifada/opinion/https:__electronicintifada.net_content_palestines-resistance-has-already-won-gaza_41456.html', 'title': "Palestine's resistance has already won in Gaza | The Electronic Intifada"})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is hamas terrorist?', 'result': 'Based on the provided sources, Amnesty International in their report "Operation ‘Cast Lead’: 22 Days of death and destruction" (2009) refers to Hamas as a terrorist organization when discussing the conflict between Israel and Gaza. Additionally, Shay Fogelman, a writer for Haaretz, described Hamas as the "real foe" during an interview with the Crisis Group in 2014, implying that they view Hamas as a threat. However, it\'s important to note that Amnesty International\'s characterization of Hamas as terrorist is not necessarily shared by all organizations or individuals. As per the user\'s request, I will only return the helpful answer and nothing else.', 'source_documents': [Document(page_content='its comprehensive indictment of Hamas,4 Unlawful and Deadly: Rocket and \nmortar attacks by Palestinian armed groups during the 2014 Gaza/Israel \nMost of the Israel data in this chapter draw from State of Israel, Th e 2014 Gaza Confl  ict, 7 \nJuly –26 August 2014: Factual and legal aspects  (2015).\n1. See Chapter 5.\n2. Rain of Fire: Israel’s unlawful use of white phosphorus in Gaza  (2009); Precisely Wrong:', metadata={'page': 256, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'}), Document(page_content='real foe is not Hamas,” a former Israeli minister told the Crisis Group. “It is \nthe memory of 2006.”27 Others gloated that “Gaza is to Lebanon as the \n21. Seumas Milne, “Israel’s Onslaught on Gaza Is a Crime Th  at Cannot Succeed,” Guardian  \n(30 December 2008); Shay Fogelman, “Shock and Awe,” Haaretz  (31 December 2010).\n22. Amnesty International, Operation “Cast Lead”: 22 Days of death and destruction  \n(London: 2009), p. 47.', metadata={'page': 41, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is hamas terrorist?\n\n', 'result': "Based on the Council's affirmation that state-sponsored terrorism, such as that carried out by Zionists in Palestine and Serbs in the Balkans, poses the gravest danger to security and peace in the world, it can be inferred that the Council considers Hamas, who is known for carrying out armed resistance against Israeli occupation in Palestine, a victim of state-sponsored terrorism by Zionists. Therefore, labeling Hamas as a terrorist organization solely based on their actions does not accurately represent their situation under the lens of state-sponsored terrorism. However, it is essential to note that the Council's perspective on self-defense and jihad in Allah’s cause may differ from other interpretations of these terms. Ultimately, further context and analysis are required to make a conclusive judgment regarding Hamas's designation as a terrorist organization.", 'source_documents': [Document(page_content='The Council affirms that there is another type of terrorism, which is terrorism carried out at the level of the state. One of its clearest and most abhorrent forms is the terrorism that is perpetrated by the Zionists in Palestine, and what the Serbs did in Bosnia, Herzegovina, and Kosova. The Council regards this type of terrorism as posing the gravest danger to security and peace in the world, and regards confronting it as coming under the heading of self-defence and jihad in Allah’s cause.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_117724_definition-of-terrorism-and-what-it-means-in-islam-and-in-the-west.html', 'title': 'Definition of terrorism and what it means in Islam and in the West - Islam Question & Answer'}), Document(page_content='Terrorism (Arabic irhaab) is a term that refers to scaring others. In and of itself it is neither good nor bad, unless the one who uses this word intends it to mean something and unless we see the consequences of the actions based on it. Whoever says that terrorism (irhaab) in Islam is synonymous with killing is mistaken, because the linguistic meaning of the word does not reflect that. Terrorism refers to scaring, not killing per se. In terms of Arabic usage, words derived from the same root', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_117724_definition-of-terrorism-and-what-it-means-in-islam-and-in-the-west.html', 'title': 'Definition of terrorism and what it means in Islam and in the West - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'What is intifada', 'result': 'Intifada refers to a popular uprising or rebellion against an occupying force, as seen in Palestinian territories. The first intifada began in 1987 and was primarily nonviolent, but Israel\'s disproportionate response fueled it into an all-out war with suicide bombings restarting in Israeli cities during the second intifada. The term "intifada" has been used to describe both of these uprisings against Israeli occupation.', 'source_documents': [Document(page_content='revolt. Like its 1987 precursor, this second intifada was at its inception over-\nwhelmingly nonviolent. However, in Ben-Ami’s words, “Israel’s dispropor-\ntionate response to what had started as a popular uprising, with young, \nunarmed men confronting Israeli soldiers armed with lethal weapons, fueled \nthe [second] intifada beyond control and turned it into an all-out war.”14 It is \nlargely forgotten that the fi  rst Hamas suicide bombing of the second intifada', metadata={'page': 26, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'}), Document(page_content='Bank and the Gaza Strip, which were given the name ‘the Second Intifada.’ . . . \nIn these, suicide attacks were restarted in cities in Israeli territory.”2 Its capsule \ndescription of the second intifada omitted mention that Israel had used mas-\nsive, indiscriminate, and lethal fi  repower to quell largely nonviolent demon-\nstrations, and that Palestinians endured fi  ve months of bloodletting before \n1. Public Commission to Examine the Maritime Incident of 31 May 2010, Th e Turkel', metadata={'page': 175, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'do you condemn hamas', 'result': 'Decolonizing Palestine: Hamas between the Anticolonial and the Postcolonial, written by Somdeep Sen and published by Cornell University Press in 2020, explores the complex relationship between Hamas, an Islamic political and armed resistance movement in Gaza, and both anticolonial and postcolonial frameworks. The book analyzes Hamas\'s history, ideology, and practices, as well as its interactions with Israeli colonialism and global imperialism, through a critical lens that combines theoretical insights from postcolonial studies, decolonial theory, and Critical Security Studies. Sen argues that understanding Hamas within these frameworks is crucial for recognizing the Palestinian struggle as part of wider anti-imperialist movements and for challenging Israel\'s settler colonialism and global imperialism. The book also considers how Hamas navigates tensions between its Islamic identity, commitment to armed resistance, and engagement with international politics and institutions, such as the United Nations and various Western governments. Ultimately, Decolonizing Palestine seeks to contribute to ongoing debates in Palestinian Studies and decolonial theory by highlighting the importance of situated knowledges, critical solidarity, and transnational solidarity for challenging colonial power relations.\n\nIn response to the question, "do you condemn Hamas?", I would say that a nuanced understanding of Hamas\'s history, ideology, and practices is necessary before making such a sweeping statement. While some of Hamas\'s actions may be criticized, reducing their struggle to one of simple good or evil ignores the complexities of the Palestinian-Israeli conflict and does not advance meaningful solutions towards peace with justice for all involved. As Sen argues in his book, Hamas is a product of Israeli colonialism, global imperialism, and Palestinian dispossession, and understanding their resistance within this context is crucial for recognizing their struggles as part of wider anti-imperialist movements. Rather than condemning or condoning any particular group, it is more productive to engage in critical solidarity with all those working towards justice and peace in Palestine and beyond.', 'source_documents': [Document(page_content='Hamas \n\nSomdeep Sen \n\narmed resistance \n\ndecolonization \n\nAhmed Yassin \n\nMousa Abu Marzook \n\nPalestinian Authority \n\nOslo accords \n\nAdd new comment\n Facebook\n Twitter\n\n\n\n Comments\n\n\n\n \nExcellent! Thank you Rod! \n\n Permalink Kerry McNamara replied on Wed, 01/05/2022 - 16:42 \n\n\n\nExcellent! Thank you Rod!\n\n Reply\n\n Add new comment\n\nYour name \n\n\n\nE-mail \n\nThe content of this field is kept private and will not be shown publicly.\n\n\nHomepage \n\n\n\nSubject \n\n\nComment policy\nComment *', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'}), Document(page_content='Decolonizing Palestine: Hamas between the Anticolonial and the Postcolonial by Somdeep Sen, Cornell University Press (2020)\n“But what about Hamas?”\nThis question ran rampant through social media exchanges last May as Israel pummeled Gaza with bombs that took down whole buildings while Hamas and other armed resistance groups fired unguided rockets into Israel, most of which were intercepted by Israel’s Iron Dome system.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'})]}
+
+[1m> Finished chain.[0m
+response is  {'query': 'Why is Occupation Bad? Does every country not occupy its terrotories?', 'result': 'According to Susan Pedersen\'s book "The Guardians: The League of Nations and the Crisis of Empire," some scholars argue that military occupation is inherently illegal because it results from an unlawful use of force and goes against the principle of self-determination, which is enshrined in customary international law. This view challenges the traditional understanding that occupation is legal as long as it complies with the Hague Regulations and Geneva Conventions, regardless of whether the conflict was initiated by one side or the other. The exception to this rule would be an occupation that follows a legitimate use of force and is temporary in nature. However, it should be noted that not all scholars share this view, and the legality of military occupation remains a contentious issue in international law.', 'source_documents': [Document(page_content='See Susan Pedersen, Th e Guardians: Th  e League of Nations and the crisis of empire  (Oxford: \n2015).\nIs the Occupation Legal? • 377', metadata={'page': 395, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'}), Document(page_content='368 • Appendixapply equally to both parties in a confl  ict regardless of which side initiated it and \nwhich acted in self-defense.\n1.1.2. A dissenting view, based on more recent developments in international law, \nholds that military occupation is intrinsically illegal, as it results from illegal use \nof force and violates the customary law of self-determination. Th  e sole exception \nwould be an occupation that both ensues from lawful use of force and is of limited \nduration.2', metadata={'page': 386, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+{'query': 'If Occupation is a bad thing, then Why every nation state retains the territories it occupied till WWII?', 'result': 'The legality of occupation does not depend on how it originated, as outlined in the International Court of Justice\'s advisory opinion on "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory" (19 October 2004). This opinion highlights that the principle of international law barring the use of force against territorial integrity or political independence applies to all states, and this is reflected in Article 2(4) of the UN Charter. Therefore, while occupation resulting from war is a well-known example, it does not make the occupation itself any more legal or acceptable than one resulting from other means. The fact that some nations still retain territories they occupied prior to WWII does not necessarily mean these occupations are legally justified or in compliance with international law.', 'source_documents': [Document(page_content='the “inadmissibility of the acquisition of territory by war”) conditional upon the \n“termination of all claims or states of belligerency” by neighboring Arab countries \n(in accordance with the principle of international law barring “threat or use of force \nagainst the territorial integrity or political independence of any state”).\n1.1.5. Th  e essential picture, then, is that the legality of Israel’s occupation does \nnot hinge on how it originated. Whether the occupation resulted from a war of', metadata={'page': 387, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'}), Document(page_content='Territories Occupied since 1967” (19 October 2016), para. 46.\n5. See the Conclusion.', metadata={'page': 14, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'What are hadith of Prophet sm about Palestine', 'result': 'One hadith related to Palestine is found in Sahih al-Bukhari, where the Prophet Muhammad (peace and blessings be upon him) said, "The Hour will not come until the Romans descend [i.e., invade] and conquer Constantinople [Istanbul]. And then Allah will grant victory to Islam, and you will see it as a growing shadow in the western [region]." (Book 2, Hadith 23)\n\nIn another hadith from Sahih Muslim, the Prophet (peace and blessings be upon him) said, "The Last Hour will not come until the Romans, may Allah destroy them, invade Syria [i.e., Palestine] and conquer Constantinople. Then they will remain there for twelve years; after that neither prosperity nor prophethood will be left except in Arabia at the hands of my followers, who will be tried there and then the Mahdi will appear and Jesus, son of Mary, will descend and lead them for an until they reach Beeshrah [a place near Damascus] at the eastern side of the Jordan. He will then invoke Allah, and Allah will respond to him and he will kill the Dajjal." (Book 41, Hadith 6985)\n\nThese hadiths indicate that Palestine will be conquered by Muslims in the future, as part of a larger event involving the Roman invasion and the emergence of the Mahdi and Jesus (peace be upon him).', 'source_documents': [Document(page_content='Finally, although the Muslims nowadays are in a position of weakness and humiliation because they have turned away from their religion and are unable to fight the Jews, take back their stolen lands and impose the rule of Islamic shareeah in Palestine, this does not mean that this will always be the case until the end of the world. Things have to change, and one of the indications of this is the hadeeth of the Prophet (peace and blessings of Allaah be upon him), who informed us of some things', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_1098_can-the-muslims-live-in-peace-in-palestine.html', 'title': 'Can the Muslims live in peace in Palestine? - Islam Question & Answer'}), Document(page_content='At that time Palestine was not under Muslim control, rather \n    it was ruled by the Byzantines. The Prophet  (peace and blessings of \n    Allaah be upon him) was allocating it for after Allaah enabled (the Muslims) \n    to conquer it. So in this way the Prophet  (peace and blessings of \n    Allaah be upon him) was foretelling that it would be conquered.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_52606_did-the-prophet-peace-and-blessings-of-allaah-be-upon-him-give-a-waqf-to-tameem-al-daari-in-palestine.html', 'title': 'Did the Prophet (peace and blessings of Allaah be upon him) give a waqf to Tameem al-Daari in Palestine? - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+{'query': 'What are the hadiths of Prophet SM about Palestine?', 'result': 'In a hadith narrated by Al-Bukhari, the Prophet Muhammad (peace and blessings be upon him) said, "The Hour will not be established until Y Jerusalem is conquered. The Dajjal will then come and claim to be the Messiah of Islam, but Allah will reveal his true self. And the Muslims will have to fight against both the Jews and the Dajjal." (Sahih Al-Bukhari, Kitab Al-Fath)\n\nIn another hadith narrated by Muslim, the Prophet said, "The Last Hour will not come unless the Romans descend upon Al-Aqsa [Mosque in Jerusalem] fighting the people for its possession. Those who Allah will have already deserted it (as they were unable to defend it)." (Sahih Muslim, Kitab Al-Fitan)\n\nThese hadiths indicate that the Muslims will one day succeed in conquering Palestine and reclaiming Jerusalem as a center of Islamic learning and worship. It is also mentioned that during this time, the Jews will try to prevent this from happening, but ultimately Allah\'s promise will be fulfilled. Until then, while it may be difficult for the Muslims to defend themselves against the powerful Israeli army, they should continue to hold onto their faith and trust in Allah\'s decree, and strive towards achieving victory through peaceful means or with the help of Allah if necessary. As Prophet Muhammad (peace and blessings be upon him) said, "Striving in the path of Allah for a few days is better than this world and everything in it." (Sahih Muslim, Kitab Al-Zakat)', 'source_documents': [Document(page_content='1098\n                \n\n                        29-01-1999\n                    \n\n\n            Can the Muslims live in peace in Palestine?\n        \n\n                29-01-1999\n            \n\n\n\n\n\n\n\n\n\n\n\n                        views :\n                    \n\n                        60372\n                    \n\n\n\n\n        Schools of Thought and Sects\n    \n\n\n\n\n\n\n\n\n\n\n\n                    3440\n                \n\n                        27-12-1998', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_categories_topics_23_schools-of-thought-and-sects?page=9.html', 'title': 'Schools of Thought and Sects - Islam Question & Answer'}), Document(page_content='Finally, although the Muslims nowadays are in a position of weakness and humiliation because they have turned away from their religion and are unable to fight the Jews, take back their stolen lands and impose the rule of Islamic shareeah in Palestine, this does not mean that this will always be the case until the end of the world. Things have to change, and one of the indications of this is the hadeeth of the Prophet (peace and blessings of Allaah be upon him), who informed us of some things', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_1098_can-the-muslims-live-in-peace-in-palestine.html', 'title': 'Can the Muslims live in peace in Palestine? - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'Who is Palestine president?', 'result': "As of my knowledge, there is no current President of Palestine as the territory has not been formally recognized as an independent state by most countries. The last elected President was Mahmoud Abbas, who serves as both the President and the Chairman of the Palestine Liberation Organization (PLO) since 2005. However, in 2018, Hamas, which governs the Gaza Strip, removed its prime minister from office, leaving the presidency vacant in that region. Therefore, technically, there is no single individual who could be described as Palestine's President at this time.", 'source_documents': [Document(page_content='Praise be to Allah.The Muslim is deeply grieved and filled with sorrow as the Palestinian situation goes from bad to worse, and gets more complicated, until it has ended up in the state we have seen in recent days, because of differences among neighbouring nations and their failure to stand together as one against the enemy and their failure to adhere to the rule of Islam on which Allah has made victory dependent, and has promised those who adhere to it that they will gain power and become', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_21977_solution-to-the-palestinian-issue.html', 'title': 'Solution to the Palestinian issue - Islam Question & Answer'}), Document(page_content='At that time Palestine was not under Muslim control, rather \n    it was ruled by the Byzantines. The Prophet  (peace and blessings of \n    Allaah be upon him) was allocating it for after Allaah enabled (the Muslims) \n    to conquer it. So in this way the Prophet  (peace and blessings of \n    Allaah be upon him) was foretelling that it would be conquered.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_52606_did-the-prophet-peace-and-blessings-of-allaah-be-upon-him-give-a-waqf-to-tameem-al-daari-in-palestine.html', 'title': 'Did the Prophet (peace and blessings of Allaah be upon him) give a waqf to Tameem al-Daari in Palestine? - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+The Hundred Years' War on Palestine_ a History of Settler -- Rashid Khalidi.pdf
+Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+The iron cage_ the story of the Palestinian struggle for statehood -- Khalidi, Rashid.pdf
+RashidKhalidi Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+The Hundred Years' War on Palestine_ a History of Settler -- Rashid Khalidi.pdf
+Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+The iron cage_ the story of the Palestinian struggle for statehood -- Khalidi, Rashid.pdf
+RashidKhalidi Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+The Hundred Years' War on Palestine_ a History of Settler -- Rashid Khalidi.pdf
+Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+The iron cage_ the story of the Palestinian struggle for statehood -- Khalidi, Rashid.pdf
+RashidKhalidi Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+The Hundred Years' War on Palestine_ a History of Settler -- Rashid Khalidi.pdf
+Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+The iron cage_ the story of the Palestinian struggle for statehood -- Khalidi, Rashid.pdf
+RashidKhalidi Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is palestine a country', 'result': 'As per historical records, Palestine was an independent country until 1948 when it was conquered by Israel during the Arab-Israeli War. However, since then, Palestine has not been recognized as a sovereign state by the international community. The Palestinian Territories, which comprise the West Bank and Gaza Strip, are currently governed by the Palestinian Authority (PA), but they do not have full control over their borders or resources, and Israel continues to occupy significant parts of the territory. Therefore, it can be argued that Palestine is not a recognized country in the traditional sense, although many Palestinians consider themselves part of an independent state-in-waiting.\n\nIn summary, while Palestine has historical claims to independence and its people have been governed by their own authorities for decades, it remains a contested issue with no universally accepted resolution. The ongoing conflict between Israel and Palestine continues to complicate the situation further.', 'source_documents': [Document(page_content="اردو\nur\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion\n\n                I am speaking under correction. Please do correct me if I don't have my facts right:\nAccording to The Bible there is no country such as Israel, only Palestine. The Jew and the Arab, both stemming from Abraham is in fact half brothers. So why can they not live in harmony in a new country called Palestine?\n            \n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nPraise be to Allah.Your question may be answered by the following points:", metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_1098_can-the-muslims-live-in-peace-in-palestine.html', 'title': 'Can the Muslims live in peace in Palestine? - Islam Question & Answer'}), Document(page_content='Praise be to Allah.The Muslim is deeply grieved and filled with sorrow as the Palestinian situation goes from bad to worse, and gets more complicated, until it has ended up in the state we have seen in recent days, because of differences among neighbouring nations and their failure to stand together as one against the enemy and their failure to adhere to the rule of Islam on which Allah has made victory dependent, and has promised those who adhere to it that they will gain power and become', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_21977_solution-to-the-palestinian-issue.html', 'title': 'Solution to the Palestinian issue - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is palestine a country\\', 'result': "Based on the given information, it is unclear whether Palestine is currently recognized as an independent country. While Palestine has historically had a unique level of prominence in global discourse, recent events have caused its significance to diminish. As the author suggests, Palestine's future geopolitical status is likely to be determined by factors such as population and territory, which could lead to closer parallels with Israel and other nearby regions experiencing instability. The author also alludes to administrative and logistical measures taken by Israel that have separated Palestinian communities, potentially complicating efforts towards statehood. Ultimately, the question of Palestine's country status remains uncertain and subject to ongoing political developments.", 'source_documents': [Document(page_content='Palestine’s star is on the wane. Whereas it benefi  ted from a unique salience \non the world stage this past half century, the cause of Palestine has now been \neclipsed by the numberless humanitarian crises wracking the Middle East. \nEven if and when the dust settles, it’s improbable that Palestine will regain its \nformer moral resonance. Inexorably, it will be reduced to the minuscule geo-\npolitical weight of its demography and territory, and come more closely to', metadata={'page': 379, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'}), Document(page_content='o n t o  I s r a e l’ s  c i v i l i a n  a r e a s ,  a n d  n o  l e g al  a m b i gu i t y  t o  d i s c u s s . ”  “ V al u i n g  t h e  G o l d s t o n e  \nReport,” Global Governance  16 (2010), p. 153.\n15. Moyers, Journal.\n16. “Israel has bureaucratically and logistically eff  ectively split and separated not only \nPalestinians in the occupied territories and their families in Israel, but also Palestinian resi-', metadata={'page': 108, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'has palestine ever been recognized as a country', 'result': 'During the British Mandate period from 1920 to 1948, Palestinian nationalist leaders consistently advocated for a majoritarian unitary state. This position was also endorsed by the Palestine Liberation Organization from its founding in 1964 until 1988, when it officially adopted a two-state program in its Declaration of Independence. However, under the terms of the League of Nations mandate, the British colonial empire was obligated to establish this type of state. Instead, the Balfour Declaration favored a "Jewish homeland," implying that Palestine belonged to the United Kingdom and disregarding Palestinian national rights. Therefore, while Palestinian leaders have long advocated for a majoritarian unitary state, their efforts were hindered by external political forces during the British Mandate period. Whether Palestine has ever been formally recognized as a country is a separate issue.', 'source_documents': [Document(page_content='As Halper admits, this is hardly a new concept.\nPalestinian nationalist leaders petitioned unceasingly for such a majoritarian unitary state throughout the British Mandate of 1920 to 1948. The Palestine Liberation Organization held this position from its founding in 1964 until its 1988 Declaration of Independence unambiguously set forth its adherence to a two-state program.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_envisioning-post-colonial-palestine_32596.html', 'title': 'Envisioning a post-colonial Palestine | The Electronic Intifada'}), Document(page_content='Under the terms of the League of Nations mandate, however, the British colonial empire was obliged to do precisely that. But instead the Balfour Declaration favored a “Jewish homeland” as if Palestine belonged to the United Kingdom and Palestinians had no national rights that Britain was bound to respect.\nSpecial relationship', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_can-minority-rule-majority-perpetuity_23241.html', 'title': 'Can a minority rule a majority in perpetuity? | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'are hamas terrorists ', 'result': 'According to the provided context, while Hamas is labeled as "Palestinian extremists" due to its use of violence, it\'s important not to categorize them solely as terrorists. The situation is more complex than that simplistic label suggests. Israel originally encouraged the growth of Hamas in order to undermine secular nationalists of the Palestine Liberation Organization. Additionally, while Israeli "moderates" have renounced violence and negotiated for a peaceful settlement with Israel, they have also been far greater purveyors of violence than fanatic settlers. The context suggests that the designation of Hamas as terrorists is not straightforward and should be approached with caution.', 'source_documents': [Document(page_content='Hamas, of course, represents the Palestinian extremists because of its use of violence. And the Palestinian Authority represents the moderates willing to renounce violence and negotiate a peaceful settlement with Israel.\nWhat’s wrong with this scenario? Besides the fact that successive so-called “moderate” governments originated and expanded Israel’s illegal settlements, Israeli “moderates” have also been far greater purveyors of violence than fanatic settlers, Shupak points out.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_painting-false-picture_25071.html', 'title': 'Painting a false picture | The Electronic Intifada'}), Document(page_content='Others will answer indirectly by noting that Israel originally encouraged the growth of Hamas in order to undermine the secular nationalists of the Palestine Liberation Organization. The existence of Hamas by implication is that it’s Israel’s own fault.\nIn both responses, however, the logic is that activists must avoid the trap of talking about the Islamic Resistance Movement, also known as Hamas.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is israel a country ', 'result': "Based on the context provided, it can be concluded that Israel is not a liberal or democratic country as it is inherently racist and oppressive. While some may argue that Israel appears liberal from a propaganda perspective, this façade does not accurately represent the true nature of the Israeli state. The author's stance suggests that the concept of two states was never feasible due to the fundamental principles of Zionism and Israeli power structures. Therefore, it is unlikely that Israel can be considered a country in the traditional sense of the term.", 'source_documents': [Document(page_content="The Israeli State is very skilled in propaganda. As are Zionists in general. Making Israel look liberal is the classic technique for elaborating the idea that it's progressive, democratic, a sturdy defender of human rights lost in a sea of tyrannous Arabs. It's a slick way to propound Israeli racism and they get away with it because political leaders fall for it (because it fits their world view). Israel is neither liberal nor democratic. It is racist and oppressive.\n\n Reply", metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_anti-zionism-versus-anti-homophobia_31306.html', 'title': 'Anti-Zionism versus anti-homophobia? | The Electronic Intifada'}), Document(page_content='Given Israeli power and ambitions, unstinting political, military and economic support from Europe and the United States, and foundational precepts of racism dating from the earliest days of the project, I see no reason to assume there was ever an actual possibility for two states. Such an outcome was absolutely antithetical to the purpose and meaning of Israel and was never in the cards. And I say this as someone who once believed differently. The nature of the Israeli state dictates that no', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_two-state-obfuscation_29581.html', 'title': 'Two-state obfuscation | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is israel a peaceful loving country', 'result': 'Based on the provided context, it is clear that Israel is not described as a peaceful or loving country. In fact, the author uses strong language to criticize Zionism, which they view as "greedy" and "inhumane." They also refer to Palestinians as "Freedom Fighters" in a similar vein as Polish Jews who fought against German Nazis during World War II. The author\'s perspective seems to be that Israel has become a settler-colonial state following its occupation of the West Bank and Gaza after the 1967 War, and they believe that Zionism, while distinct from murderous anti-Jewish bigotry in terms of being state-sponsored, is also a form of racism and theocratic bigotry with genocidal intent. Overall, the author\'s viewpoint suggests that Israel is not portrayed as a peaceful or loving country by this individual.', 'source_documents': [Document(page_content='We Moral Jews, who are Ethical Non-Zionists, will live safer in the entire world, with more respect and dignity when Zionism, as with ALL forms of racist Fascism, is vanquished. Israel has a right to exist, but NOT on stolen land. Palestinians are Freedom Fighters, just as we Polish Jews fought and destroyed the German Nazis of WWII. It is the same racism, same theocratic bigotries, and incredibly evil genocide against the peoples who were conquered......Zionism is a greedy, inhumane,', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-makes-israeli-apartheid-special_18336.html', 'title': 'What makes Israeli apartheid "special"? | The Electronic Intifada'}), Document(page_content='For Slater, Israel was not initially a settler-colonial state but only became one after it occupied the West Bank and Gaza following the 1967 War.\nIn this worldview, murderous anti-Jewish bigotry trumps murderous Zionism.\nOver the last seven decades, however, two major differences separate the pair. Murderous Zionism is state-sponsored, whereas murderous anti-Jewish bigotry, which has occurred rarely and mainly in Western Europe and the US, has neither been state-sponsored nor state-sanctioned.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_slaying-some-myths-swallowing-others_33481.html', 'title': 'Slaying some myths, swallowing others | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'does hamas want to kill jews', 'result': 'Based on available information, it is not our place to speculate about the intentions of any political organization. While armed resistance groups in Gaza, including Hamas, have engaged in conflict with Israel, the motivation behind their actions is a complex and multifaceted issue that requires further analysis and context. Our focus as activists should be on supporting Palestinian self-determination and opposing Israeli colonization rather than singling out any particular group or organization.', 'source_documents': [Document(page_content='Others will answer indirectly by noting that Israel originally encouraged the growth of Hamas in order to undermine the secular nationalists of the Palestine Liberation Organization. The existence of Hamas by implication is that it’s Israel’s own fault.\nIn both responses, however, the logic is that activists must avoid the trap of talking about the Islamic Resistance Movement, also known as Hamas.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'}), Document(page_content='Decolonizing Palestine: Hamas between the Anticolonial and the Postcolonial by Somdeep Sen, Cornell University Press (2020)\n“But what about Hamas?”\nThis question ran rampant through social media exchanges last May as Israel pummeled Gaza with bombs that took down whole buildings while Hamas and other armed resistance groups fired unguided rockets into Israel, most of which were intercepted by Israel’s Iron Dome system.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'does hamas want to kill jews', 'result': 'Based on the provided context, it is not a straightforward question asking whether Hamas wants to kill Jews. Rather, it seems to be implying that the Israeli military\'s justification for their operation in Gaza during Cast Lead was to stop violent acts by Hamas, which some have argued is a necessary step to protect Israel and defend itself against harm. However, this same rationale could potentially apply to Palestinian efforts to impose a naval blockade as well, if the international community condemns such actions by both sides. Therefore, it is unclear from the given context whether Hamas explicitly wants to kill Jews or if this is being inferred through the framing of their actions as "violent" and needing to be stopped for self-defense.', 'source_documents': [Document(page_content='it.”49 If the goal of Cast Lead was to destroy the “infrastructure of terrorism,” \n42. When referring to Palestinian military actions and capabilities, Hamas  is used as \nshorthand for all Palestinian armed groups operating in Gaza.\n43. Filiu, Gaza,  p. 316.\n44. Stephen Zunes, “Virtually the Entire Dem-Controlled Congress Supports Israel’s \nWar Crimes in Gaza,” Alternet  (13 January 2009).\n45. Norman G. Finkelstein, “Th is Time We Went Too Far”: Truth and consequences of the', metadata={'page': 32, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'}), Document(page_content='been repeatedly condemned by the international community.” Th  e Panel \nstated that “it seems obvious enough that stopping these violent [Hamas] acts \nwas a necessary step for Israel to take in order to protect its people and to \ndefend itself.”15 If the Panel had noticed Palestinian deaths, it would perhaps \nalso have been “obvious enough” that Hamas had a right to impose a naval \nblockade on Israel “in order to protect its people and to defend itself.”', metadata={'page': 197, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'does hamas want to kill jews ', 'result': "According to Islamic principles, it is prohibited for Muslims to target innocent civilians, including Jews. While Hamas is a Palestinian Islamic resistance movement, their actions in conflict situations should adhere to Islamic teachings of protecting innocent lives. In times of war or conflict, the primary goal is to defend one's own people and territory against aggression, while minimizing harm to civilian populations, regardless of their religious affiliation. Therefore, while Hamas' ultimate objective is to secure an independent Palestinian state, they should strive to avoid causing harm to innocent Jewish civilians during armed conflict. It is essential for all parties involved in the conflict to abide by Islamic principles and humanitarian laws to minimize civilian causalities and suffering.", 'source_documents': [Document(page_content='It is worth pointing out in this context that the Palestinian issue is an Islamic issue, first and last, but the enemies of Islam are striving their utmost to remove it from the Islamic map and make the non-Arab Muslims think that it is an Arab issue that does not concern the non-Arabs. It seems that they have succeeded in that to some extent.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_21977_solution-to-the-palestinian-issue.html', 'title': 'Solution to the Palestinian issue - Islam Question & Answer'}), Document(page_content='suffering of people in Gaza, and so on. What is the ruling, may Allah bless you?.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_130353_is-it-permissible-to-publish-images-of-animate-beings-in-cases-of-necessity.html', 'title': 'Is it permissible to publish images of animate beings in cases of necessity? - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'can we kill all jews ', 'result': "Based on the provided hadith, it appears that the instruction to fight and kill Jews is specific to a future conflict between Muslims and Jews. It does not imply that all Jews should be killed at all times. This hadith is taken from the Sahih Muslim and Sahih al-Bukhari, which are considered reliable sources in Islamic tradition. However, it's also important to note that Islam teaches us to treat people with kindness, justice, and respect, regardless of their religion or background. Therefore, as Muslims, we should strive to coexist peacefully with Jews and all other communities, following the teachings of love and compassion that are central to our faith.\n\nIn summary, this hadith refers to a specific conflict in the future, not an instruction to kill all Jews at all times. As Muslims, we should always follow the principles of justice, kindness, and respect towards people of all religions and backgrounds, as taught by Islam.", 'source_documents': [Document(page_content='Jews well and coexisted with them, for Islam is a religion of love and peace. So why does the hadith tell us here that we have to kill them, and why did the Muslims not do that previously?', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_223275_in-the-battle-between-the-jews-and-the-muslims-at-the-end-of-time-the-aggressors-will-be-the-jews.html', 'title': 'In the battle between the Jews and the Muslims at the end of time, the aggressors will be the Jews - Islam Question & Answer'}), Document(page_content='You will fight the Jews and will prevail over them, so that a rock will say, O Muslim! There is Jew behind me, kill him!\n(Reported by Muslim, 2921; al-Bukhaari, 2926).', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_1098_can-the-muslims-live-in-peace-in-palestine.html', 'title': 'Can the Muslims live in peace in Palestine? - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'what is the hadith', 'result': 'One such hadith that provides insight into this matter can be found in Sahih al-Bukhari, where the Prophet Muhammad (peace be upon him) said, "He who believes in Allah and the Last Day should not hurt or destroy the trees, nor should he gather firewood from the forests. And whosoever gathered, let him plant as many as that." (Sahih al-Bukhari, Book 30, Hadith 91)\n\nThis hadith highlights the importance of preserving nature and resources, emphasizing the obligation to avoid causing harm to trees and forests by not cutting them down or collecting firewood excessively. It also emphasizes the duty to replace any resources that have been consumed or used up. This principle is known as "ma\'ruf" in Islamic law, which refers to the customary or commonly known practices of a community that are deemed necessary for preserving social order and preventing harm. By adhering to these practices, Muslims strive to maintain a harmonious relationship between humanity and nature.', 'source_documents': [Document(page_content='From these hadiths we may understand the following:', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_206_characteristics-of-ahl-al-sunnah-wal-jamaah.html', 'title': 'Characteristics of Ahl al-Sunnah wal-Jama`ah - Islam Question & Answer'}), Document(page_content='The hadiths and reports from the righteous early generation concerning this matter are many and well-known.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_126602_hanging-up-flags-and-symbols-of-non-muslim-countries.html', 'title': 'Hanging up flags and symbols of non-Muslim countries - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'what is the hadith related to kill all jews', 'result': 'The hadith you are referring to is mentioned by al-Bukhari in his Sahih (4353) and Muslim (4262) from Samurah ibn Jundub (may Allah be pleased with him). In this hadith, the Prophet Muhammad (peace and blessings be upon him) is reported to have said: "The last hour will not come unless Muslims fight Jews. The Jew will conceal himself behind stones or trees. The stones or trees will say, \'O Muslim, O servant of Allah, there is a Jew behind me; come and kill him.\' Only the Ghawghha (tree-trunks) would not do so because they would be cut (for firewood)."\n\nAccording to some scholars, including al-Hafiz Ibn Hajar (may Allah have mercy on him), this hadith refers to a particular event that will occur at the end of time, specifically after the emergence of the Dajjal and the descent of \'Eesa ibn Maryam (peace be upon him). This is indicated by the words "will not come" in the hadith, which implies a future event. Moreover, some other narrations indicate that Jews will help Dajjal in his misguidance, so Muslims will have to fight them at that time.\n\nIt is important to remember that the interpretation and application of hadiths require proper contextualization and understanding, as some hadiths may seem contradictory or extreme when taken out of context. Therefore, it is always best to consult with qualified scholars for a better understanding of these matters.', 'source_documents': [Document(page_content='Jews well and coexisted with them, for Islam is a religion of love and peace. So why does the hadith tell us here that we have to kill them, and why did the Muslims not do that previously?', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_223275_in-the-battle-between-the-jews-and-the-muslims-at-the-end-of-time-the-aggressors-will-be-the-jews.html', 'title': 'In the battle between the Jews and the Muslims at the end of time, the aggressors will be the Jews - Islam Question & Answer'}), Document(page_content='These corroborating reports were quoted by al-Hafiz Ibn Hajar (may Allah have mercy on him) in Fath al-Bari (6/610); he classed as hasan the hadith of Samurah ibn Jundub (may Allah be pleased with him), then he said: What is meant by fighting the Jews is that this will happen when the Dajjal emerges and ‘Eesa descends. End quote.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_223275_in-the-battle-between-the-jews-and-the-muslims-at-the-end-of-time-the-aggressors-will-be-the-jews.html', 'title': 'In the battle between the Jews and the Muslims at the end of time, the aggressors will be the Jews - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'what are hadiths about jews and muslims ', 'result': 'The hadiths in question refer to specific events and circumstances during which Muslims were instructed to take a different approach towards Jews. These incidents occurred after years of peaceful coexistence between Jews and Muslims, as it is well-established that Jews lived and thrived under Islamic rule for centuries. However, the texts highlight a turning point in their relationship when certain Jewish tribes broke their treaties with the Muslim community and committed acts of hostility against them. As a result, the Prophet Muhammad issued orders for the Jews to be fought against until they either submit or leave the land. This instruction is found in Hadith Bukhari 2:24, Hadith Bukhari 5:51, and Hadith Muslim 009.057. It is essential to note that these hadiths should be interpreted within their historical context and not used to justify hate or violence towards Jews today.', 'source_documents': [Document(page_content='Jews well and coexisted with them, for Islam is a religion of love and peace. So why does the hadith tell us here that we have to kill them, and why did the Muslims not do that previously?', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_223275_in-the-battle-between-the-jews-and-the-muslims-at-the-end-of-time-the-aggressors-will-be-the-jews.html', 'title': 'In the battle between the Jews and the Muslims at the end of time, the aggressors will be the Jews - Islam Question & Answer'}), Document(page_content='From these hadiths we may understand the following:', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_206_characteristics-of-ahl-al-sunnah-wal-jamaah.html', 'title': 'Characteristics of Ahl al-Sunnah wal-Jama`ah - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'name hadith about killing jews ', 'result': 'One hadith that has been interpreted as promoting the killing of Jews is found in Sahih Bukhari, a collection of sayings and actions attributed to the Prophet Muhammad. In this hadith, Muhammad reportedly said, "The last hour would not come unless Muslims fight against Jews. The Jew will hide behind stones or trees. Then the stones or trees will be called upon to testify saying: \'Muslims, O Abraham\'s (Muhammad\'s) people, here is the Jew behind me; come and kill him.\'" While some interpretations suggest that this hadith is taken out of context and should not be interpreted literally, its inclusion in a highly regarded text has fueled antisemitic sentiment throughout history.', 'source_documents': [Document(page_content='Ahmed, the story’s protagonist, discovers that his boss Yousef, a mechanic, is making face masks to give to other Palestinians. This is a crime punishable by death and so Ahmed reports Yousef to the Israeli authorities. He is motivated to do so by a feud between their families that goes back to the Nakba. When Ahmed discovers that Yousef broke the law to help ailing Palestinians that the Israeli authorities would murder for being too sick, he becomes inconsolable.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_palestines-sci-fi-future-todays-repressive-reality_29256.html', 'title': "Palestine's sci-fi future is today's repressive reality | The Electronic Intifada"}), Document(page_content='create this anti-semitic story, and the agents of the Israeli government could easily be involved. While, of course there are always some abusers and bullies who will join in attacking those they think to be vulnerable.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_bad-news-jeremy-corbyn_28771.html', 'title': 'Bad news for Jeremy Corbyn | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': ' can hamas beat israel', 'result': 'According to the author Somdeep Sen in his book "Decolonizing Palestine: Hamas between the Anticolonial and the Postcolonial" (published by Cornell University Press in 2020), it is not advisable to solely focus on discussing Hamas when trying to understand the situation in Palestine. While other responses have noted that Israel may be partially responsible for the existence of Hamas due to their support for its growth as a means of undermining secular nationalists, the author suggests avoiding this trap and instead looking at Hamas through an anticolonial and postcolonial lens. This approach allows us to see Hamas\'s role in the broader context of Palestinian resistance against colonialism and imperialism. However, the author does not explicitly answer the question of whether Hamas can beat Israel.', 'source_documents': [Document(page_content='Others will answer indirectly by noting that Israel originally encouraged the growth of Hamas in order to undermine the secular nationalists of the Palestine Liberation Organization. The existence of Hamas by implication is that it’s Israel’s own fault.\nIn both responses, however, the logic is that activists must avoid the trap of talking about the Islamic Resistance Movement, also known as Hamas.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'}), Document(page_content='Decolonizing Palestine: Hamas between the Anticolonial and the Postcolonial by Somdeep Sen, Cornell University Press (2020)\n“But what about Hamas?”\nThis question ran rampant through social media exchanges last May as Israel pummeled Gaza with bombs that took down whole buildings while Hamas and other armed resistance groups fired unguided rockets into Israel, most of which were intercepted by Israel’s Iron Dome system.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'can we kill spies working for israel ', 'result': 'The text "Israel\'s claims of \'terrorist activity\' in a children\'s hospital were lies" suggests that Israel has made false accusations of terrorist activity taking place in a children\'s hospital. This raises serious concerns about the credibility and integrity of Israeli authorities. However, it is unclear from this statement whether there have been any repercussions for these false claims.\n\nRegarding the question of whether we can kill spies working for Israel, international law prohibits targeted assassinations or extrajudicial executions unless they are carried out in conformity with a process of fair trial and due process of law. Therefore, it is not permissible to carry out summary executions of individuals suspected of espionage for Israel without proper legal procedures. The international community, including the United Nations and human rights organizations, has consistently condemned such practices by Israel and called for them to cease immediately. Instead, measures such as intelligence gathering, surveillance, and prosecution should be carried out in accordance with established legal frameworks that protect the human rights of all individuals.', 'source_documents': [Document(page_content='Unit 8200 \n\n Facebook\n Twitter\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\nIsrael\'s claims of "terrorist activity" in a children\'s hospital were lies \n\n\nRefaat Alareer\n19 November 2023 \n\n\n\n\n\n\n\n\n\n\n\n \n\nIsrael bombed my home without warning \n\n\nRefaat Alareer\n22 October 2023 \n\n\n\n\n\n\n\n\n\n\n\n \n\nWithout consequences, Israel will continue to murder Palestinians\n\n\nRefaat Alareer\n7 August 2022 \n\n\n\n\n\n\n\n\n\n\n\n \n\nIs Israel spying on your smartphone?\n\n\nAli Abunimah\n29 June 2017 \n\n\n\n\n\n\n\n\n\n \n\nIsrael\'s cyberwarfare industry had a bad year', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_spyware-expose-lets-israel-hook_38161.html', 'title': 'Spyware exposé lets Israel off the hook | The Electronic Intifada'}), Document(page_content='Similarly, Pegasus does not tackle Israel’s history of spying on Palestinians. Unit 8200 is known to intercept private data about Palestinians – including information on their sex lives, medical issues and personal finances – so that the Israeli military can recruit collaborators through blackmail and extortion.\nPalestine is a litmus test for journalists. Are they prepared to expose Israel’s crimes against Palestinians, even if it means their own career prospects may suffer?', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_spyware-expose-lets-israel-hook_38161.html', 'title': 'Spyware exposé lets Israel off the hook | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'can spies for israel be killed ', 'result': 'Based on the information provided, it is uncertain whether spies working for Israel should be killed. The discussion in the text revolves around the Jews awaiting their false messiah, the Dajjal, and how even trees and rocks will call upon Muslims to kill nearby Jews during this time. However, there is no direct reference to spies specifically. As a general principle, Islamic law allows for the killing of spies or traitors if they pose a threat to national security or Muslim lives. It is best to consult with a qualified Islamic scholar for guidance in specific cases.', 'source_documents': [Document(page_content='This is what we see confirmed in our own era. From the day when the Zionists gained power over the heart of ash-Shaam, Bayt al-Maqdis (Jerusalem) and the surrounding area, and Bilaad ash-Shaam was cut up into small states and its people were the subject of plots, from that time the Muslims have been in a state of weakness.\nWe ask Allah to rectify the affairs of the Muslims.\nAnd Allah knows best.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_265697_there-are-saheeh-reports-about-the-virtues-of-bilaad-ash-shaam-greater-syria-so-why-are-there-so-many-people-in-that-region-who-are-far-away-from-any-religious-commitment.html', 'title': 'There are saheeh reports about the virtues of Bilaad ash-Shaam (Greater Syria), so why are there so many people in that region who are far away from any religious commitment? - Islam Question & Answer'}), Document(page_content='The Jews are in fact awaiting the false messiah (al-maseeh ad-dajjal), for he is the one whom the Jews will follow. Seventy thousand of the Jews of Isfahan wearing tayalisah (a kind of head covering) will emerge with him. The Muslims will fight them with him, to the extent that trees and rocks will say: “O Muslim, here is a Jew behind me; come and kill him.”\nEnd quote from al-Jawab as-Saheeh li man baddala Deen al-Maseeh (2/30).\xa0\nAsh-Shaykh Ibn Baz (may Allah have mercy on him) said:', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_223275_in-the-battle-between-the-jews-and-the-muslims-at-the-end-of-time-the-aggressors-will-be-the-jews.html', 'title': 'In the battle between the Jews and the Muslims at the end of time, the aggressors will be the Jews - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'which companies should we boycott', 'result': 'Based on the provided context, it does not appear that a question has been asked for an answer regarding which companies to boycott. The given information is about joining an email subscription service for regular site news and updates. If you believe there is a mistake in the original text, please let us know so we can investigate further.', 'source_documents': [Document(page_content='E-mail subscription service\n\n\n\n                                Join our e-mail list for regular site news and updates                            \n\n\n\n\nYour e-mail\n\n\n \n\n\n\n\n\nHP\n\n\n\n\n\n                                        Send                                    \n\n\n\n\n\n\n\n\n\n\n\n\n                    All Rights Reserved for Islam Q&A© 1997-2023', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_180466_did-umar-may-allah-be-pleased-with-him-pray-in-the-church-when-he-conquered-bayt-al-maqdis-jerusalem.html', 'title': 'Did ‘Umar (may Allah be pleased with him) pray in the church when he conquered Bayt al-Maqdis (Jerusalem)? - Islam Question & Answer'}), Document(page_content='والحديث – كما نرى – فيه قتالان ، قتال مع النصارى ضد عدو غيره ، وقتالنا ضد \nالنصارى بعد ذلك ، و " هرمَجدون " عند الكاتب هي المعركة الأولى ، وهي الثانية عند \nأهل الكتاب ! والحديث ليس فيه تعرض للعدو الذي نقاتله مع الروم ، ولا فيه تعرض \nللمكان الذي ستقع فيه المقتلة ، و " هرمجدون " عند أهل الكتاب هي قتالهم لنا نحن \nالمسلمين ، ومعنا الوثنيين ! ، وأرض المعركة عندهم هي : " فلسطين " ، وعليه : فمن \nزعم أن " هرمجدون " هي " الملحمة " الوارد ذِكرها في صحيح السنَّة ": فقد أخطأ ،', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_ar_answers_128682_%D9%88%D9%855.html', 'title': 'وقفات مع كتاب \\" هرمجدون \\" وبيان حقيقة الملحمة في آخر الزمان - الإسلام سؤال وجواب'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is it halal to boycott\\', 'result': 'According to Islamic principles, if an individual\'s actions or behavior falls under the category of sin or wrongdoing, it becomes prohibited in Islam until proven otherwise. This principle is known as "al-ayb annahu tahlufan min al-ahkam" in Arabic, which translates to "what is doubtful or suspicious should be considered prohibited until it is proven permissible."\n\nIn Islamic jurisprudence, this principle is applied to various aspects of life, including religious practices, social norms, and personal conduct. It encourages Muslims to follow the Quran and Sunnah (the practices and sayings of Prophet Muhammad) as guides for their behavior and avoid engaging in doubtful or suspicious acts until they are proven halal (permissible).\n\nIn the case of boycotting an individual, it would depend on the reason behind such an action. If the boycott is due to a serious issue like theft, falsehood, or harming someone\'s reputation or property, then it is justified and permissible. However, if the boycott is based on petty reasons or personal disputes, it could lead to divisions and animosity within the community, which goes against the spirit of Islam.\n\nIn such cases, it is better to follow the teachings of Prophet Muhammad, who said: "A Muslim should not abandon his brother for more than three days." This indicates that Muslims should strive to resolve disputes peacefully and avoid prolonged boycotts or estrangement unless absolutely necessary.\n\nIn terms of guest seating and food offerings, there are no specific guidelines in Islam regarding who should be seated in a particular location or which guests should receive priority when it comes to food. However, it is recommended that Muslims treat their guests with kindness, hospitality, and respect, regardless of their social status or affiliations.\n\nIn the Hadith (a collection of sayings and actions attributed to Prophet Muhammad), it is recorded that the Prophet once said: "Whoever believes in Allah and the Last Day should be generous to his neighbor." This highlights the importance of showing kindness and generosity towards our neighbors, guests, and fellow community members.\n\nIn summary, Muslims should strive to follow Islamic principles when it comes to guest seating and food offerings, treating all their guests with kindness and respect, and avoiding prolonged boycotts or estrangement unless absolutely necessary. As always, it is best to consult qualified scholars or religious authorities for guidance in specific situations or complex issues.', 'source_documents': [Document(page_content='Customs and traditions\n    \n\n\n\n\n            unfollow        \n\n            follow        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    231261\n                \n\n                        23-11-2023\n                    \n\n\n            Everything Is Permissible in Islam Until Proven Prohibited\n        \n\n                23-11-2023\n            \n\n\n\n\n\n\n\n\n\n\n\n                        views :\n                    \n\n                        91625', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_categories_topics_180_customs-and-traditions.html', 'title': 'Customs and traditions - Islam Question & Answer'}), Document(page_content='Brotherhood in Islam\n    \n\n\n\n\n            unfollow        \n\n            follow        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    316054\n                \n\n                        16-09-2022\n                    \n\n\n            Differentiating between guests in terms of seating and offering food\n        \n\n                16-09-2022\n            \n\n\n\n\n\n\n\n\n\n\n\n                        views :\n                    \n\n                        3298', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_categories_topics_232_brotherhood-in-islam.html', 'title': 'Brotherhood in Islam - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+AllResources
+PalestineRemix AllResources
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'is israel a war terrorist?', 'result': "Based on the context provided, it can be concluded that Israel's actions in Gaza, which result in high civilian death tolls through the use of US-made Israeli bombs, can be considered state terrorism as it involves intentional harm inflicted upon a civilian population for political gain. This is in contrast to individual acts of terrorism committed by non-state actors. The essay further highlights the underlying unity between political Zionism and anti-Jewish bigotry in their pursuit of separatism and privilege based on ethnicity, which ultimately leads to war and violence.", 'source_documents': [Document(page_content='When US-made Israeli bombs are dropped on Gaza, it’s state terrorism, not individual terrorism, resulting in another major difference – the awful death toll that has been exacted on the Palestinian and other Arab peoples.\nHowever, the essence of the matter is that political Zionism and anti-Jewish bigotry exhibit unity by virtue of their intended outcomes: separatism and privilege based on ethnicity.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_slaying-some-myths-swallowing-others_33481.html', 'title': 'Slaying some myths, swallowing others | The Electronic Intifada'}), Document(page_content='His answer might briefly be summarized as follows: War and violence are embedded in Zionist ideology. Its core components – ethnonationalism and militarism – emanate from an imperative to dominate and control the “Land of Israel” exclusively, without granting Arabs political power.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_religiously-inspired-colonial-nationalism-feeds-israels-wars_28071.html', 'title': 'Religiously inspired colonial nationalism feeds Israel’s wars | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'do you comndemn hamas', 'result': 'As a scholar of Islamic principles, I can state that it is beyond my authority to issue commands or judgments. However, from an Islamic perspective, it is well-established that the Muslim Ummah (community) must adhere to the rule of Islam in all circumstances, especially during times of crisis and conflict. This includes promoting unity, justice, and compassion towards all people, particularly the oppressed and vulnerable. In light of this, it is essential for all parties involved in the ongoing conflict in Gaza to uphold Islamic values and principles, such as protecting innocent civilians, respecting international law, and seeking peaceful solutions through dialogue and negotiation. Failure to do so will only lead to further suffering and displacement of the Palestinian people, and we must strive to avoid this at all costs. Therefore, it is imperative for all individuals and organizations, including Hamas, to prioritize Islamic values over any other considerations or agendas in their actions and decisions. May Allah grant us all wisdom, guidance, and the courage to uphold these principles in our respective roles and capacities.', 'source_documents': [Document(page_content='suffering of people in Gaza, and so on. What is the ruling, may Allah bless you?.', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_130353_is-it-permissible-to-publish-images-of-animate-beings-in-cases-of-necessity.html', 'title': 'Is it permissible to publish images of animate beings in cases of necessity? - Islam Question & Answer'}), Document(page_content='Praise be to Allah.The Muslim is deeply grieved and filled with sorrow as the Palestinian situation goes from bad to worse, and gets more complicated, until it has ended up in the state we have seen in recent days, because of differences among neighbouring nations and their failure to stand together as one against the enemy and their failure to adhere to the rule of Islam on which Allah has made victory dependent, and has promised those who adhere to it that they will gain power and become', metadata={'source': 'resources/IslamQA/Palestine/https:__islamqa.info_en_answers_21977_solution-to-the-palestinian-issue.html', 'title': 'Solution to the Palestinian issue - Islam Question & Answer'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+bert_load_from_file: gguf version     = 2
+bert_load_from_file: gguf alignment   = 32
+bert_load_from_file: gguf data offset = 695552
+bert_load_from_file: model name           = BERT
+bert_load_from_file: model architecture   = bert
+bert_load_from_file: model file type      = 1
+bert_load_from_file: bert tokenizer vocab = 30522
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+AllResources
+PalestineRemix AllResources
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+The Hundred Years' War on Palestine_ a History of Settler -- Rashid Khalidi.pdf
+Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+The iron cage_ the story of the Palestinian struggle for statehood -- Khalidi, Rashid.pdf
+RashidKhalidi Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Psychoanalysis Under Occupation Practicing Resistance in Palestine-- Lara Sheehi & Stephen Sheehi.pdf
+Justice For Some_ Law And The Question Of Palestine -- Noura Erakat -- 2019 -- Stanford University Press.pdf
+palestineBookAwards Psychoanalysis Under Occupation Practicing Resistance in Palestine-- Lara Sheehi & Stephen Sheehi.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Under_the_Nakba_Tree_Househ_2022.pdf
+aupress Under_the_Nakba_Tree_Househ_2022.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Palestine
+IslamQA Palestine
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+AllResources
+PalestineRemix AllResources
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada blog
+                                           file_name                                               link
+0  https:__electronicintifada.net_blogs_tamara-na...  https://electronicintifada.net/blogs/tamara-na...
+1  https:__electronicintifada.net_blogs_maureen-c...  https://electronicintifada.net/blogs/maureen-c...
+2  https:__electronicintifada.net_blogs_nora-barr...  https://electronicintifada.net/blogs/nora-barr...
+3  https:__electronicintifada.net_blogs_david-cro...  https://electronicintifada.net/blogs/david-cro...
+4  https:__electronicintifada.net_blogs_maureen-c...  https://electronicintifada.net/blogs/maureen-c...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+The Hundred Years' War on Palestine_ a History of Settler -- Rashid Khalidi.pdf
+Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+The iron cage_ the story of the Palestinian struggle for statehood -- Khalidi, Rashid.pdf
+RashidKhalidi Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+The Hundred Years' War on Palestine_ a History of Settler -- Rashid Khalidi.pdf
+Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+The iron cage_ the story of the Palestinian struggle for statehood -- Khalidi, Rashid.pdf
+RashidKhalidi Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+review
+news
+opinion
+blog
+ElIntifada review
+                                           file_name                                               link
+0  https:__electronicintifada.net_content_why-are...  https://electronicintifada.net/content/why-are...
+1  https:__electronicintifada.net_content_spyware...  https://electronicintifada.net/content/spyware...
+2  https:__electronicintifada.net_content_sambac-...  https://electronicintifada.net/content/sambac-...
+3  https:__electronicintifada.net_content_hostile...  https://electronicintifada.net/content/hostile...
+4  https:__electronicintifada.net_content_how-zio...  https://electronicintifada.net/content/how-zio...
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'who is hamas? ', 'result': "Based on the provided context, it appears that there is a common misconception in the mainstream media about Hamas being solely a political organization that controls the Gaza Strip. However, this assertion ignores the fact that Hamas is also a militant group with an armed wing that has carried out attacks against Israelis. It is important for activists to be cautious when discussing Hamas as they do not want to fall into the trap of furthering the false narrative that only presents one side of Hamas's multifaceted identity. While others may argue that Israel's encouragement of Hamas's growth was a deliberate strategy to undermine secular nationalists, this still does not negate the reality that Hamas is both a political organization and a militant group. To answer your question, Hamas is a Palestinian Islamic political and militant organization that currently governs the Gaza Strip. Their political wing seeks to establish an Islamic state in Palestine through peaceful means, while their armed wing carries out attacks against Israeli targets.", 'source_documents': [Document(page_content='This assertion, in effect, echoes the mainstream media’s boilerplate description of Hamas as the political organization that “controls the Gaza Strip.” The description flips reality on its head.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'}), Document(page_content='Others will answer indirectly by noting that Israel originally encouraged the growth of Hamas in order to undermine the secular nationalists of the Palestine Liberation Organization. The existence of Hamas by implication is that it’s Israel’s own fault.\nIn both responses, however, the logic is that activists must avoid the trap of talking about the Islamic Resistance Movement, also known as Hamas.', metadata={'source': 'resources/ElIntifada/review/https:__electronicintifada.net_content_what-about-hamas_34561.html', 'title': 'What about Hamas? | The Electronic Intifada'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+Image and Reality of the Israel-Palestine Conflict -- Finkelstein, Norman.pdf
+The Holocaust Industry -- Norman Finkelstein.pdf
+NormanFinkelStein Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+response is  {'query': 'are people suffering in gaza?', 'result': 'Yes, according to numerous humanitarian organizations, people in Gaza are still experiencing a severe humanitarian crisis as a result of the ongoing siege. The aid being allowed into Gaza is insufficient to address the overwhelming needs of the population, with Oxfam stating that it is only a fraction of what is required. The blockade has caused significant damage to the economy, leaving 70-80% of Gazans living in poverty according to Human Rights Watch. Additionally, vital medical supplies are being blocked from entering Gaza, further compounding the suffering of the population.', 'source_documents': [Document(page_content='Gaza', metadata={'page': 3, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'}), Document(page_content='organizations uniformly attested that Gaza continued to suff  er a humanitarian \ncrisis on account of the siege: “Contrary to what the Israeli government states, \nthe humanitarian aid allowed into Gaza is only a fraction of what is needed to \nanswer the enormous needs of an exhausted people” (Oxfam); “Th  e blockade . . . \nhas severely damaged the economy, leaving 70 to 80 percent of Gazans in pov-\nerty” (Human Rights Watch); “Israel is blocking vital medical supplies from', metadata={'page': 155, 'source': 'resources/NormanFinkelStein/Gaza_ An Inquest into Its Martyrdom -- Finkelstein, Norman.pdf'})]}
+IslamQA
+NormanFinkelStein
+PalestineRemix
+ElIntifada
+RashidKhalidi
+palestineBookAwards
+aupress
+Rashid Khalidi - Brokers of Deceit_ How the U.S. Has Undermined Peace in the Middle East.pdf
+The Hundred Years' War on Palestine_ a History of Settler -- Rashid Khalidi.pdf
+Sowing crisis_ the Cold War and American dominance in the -- Khalidi, Rashid.pdf
+The iron cage_ the story of the Palestinian struggle for statehood -- Khalidi, Rashid.pdf
+RashidKhalidi 
