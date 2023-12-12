@@ -1,5 +1,11 @@
 # Personalized Chatbot
 
+## Setup
+
+Follow the tutorial [here](https://medium.com/python-in-plain-english/super-quick-retrieval-augmented-generation-using-ollama-24803ee585b9) to set up your environment and the LLM.
+
+## Details
+
 The project has three parts
 
 1. Scraping data from the internet - folder "ScrapingData"
@@ -13,9 +19,7 @@ The project has three parts
 ```bash
 streamlit run stream_app.py
 ```
-## Resource
 
-Follow the tutorial [here](https://medium.com/python-in-plain-english/super-quick-retrieval-augmented-generation-using-ollama-24803ee585b9) to set up your environment and the LLM.
 
 ## Contributing
 
